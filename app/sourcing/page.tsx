@@ -3,8 +3,12 @@ import { HeaderComponent } from "../components/HeaderComponent";
 
 import Image from "next/image";
 import hero_bg from "@/public/img/hero_bg.jpg"
-import hero_bg_sourcing from "@/public/img/hero_bg.jpg"
-import rice_img_1 from "@/public/img/rice_img-1.png";
+import hero_bg_sourcing from "@/public/img/QCS_sourcing.png"
+import rice_img_sella from "@/public/img/rice_img_sella.png";
+import rice_img_steam from "@/public/img/rice_img_steam.png";
+import rice_img_steam2 from "@/public/img/rice_img_steam2.png";
+import rice_img_white from "@/public/img/rice_img_white.png";
+import salt_img_coarse from "@/public/img/salt_coarse.png";
 
 
 export default function sourcing() {
@@ -45,7 +49,7 @@ export default function sourcing() {
             </section>
             <hr className="my-1 border-black w-3/4 mx-auto" />
 
-            <div className="flex flex-col md:flex-row gap-7 bg-blue-200/70 px-10 md:px-60 py-5 md:py-10">
+            <div className="flex flex-col md:flex-row gap-7 bg-blue-200/70 px-5 md:px-60 py-5 md:py-10">
                 <div className="flex-1 bg-white p-10 rounded-br-2xl rounded-tl-2xl">
                     <h1 className="text-2xl font-bold mb-5">Factory Tours</h1>
                     <p className="text-md leading-10 tracking-widest">QCS's factory tours go beyond standard visits – we give you direct access to top suppliers with expert negotiators by your side. Our custom guided tours in China, Indonesia, Vietnam, and Europe provide deep industry insights and exclusive sourcing opportunities.</p>
@@ -67,7 +71,7 @@ export default function sourcing() {
             </div>
             <hr className="my-1 border border-black w-3/4 mx-auto" />
 
-            <div className="flex flex-col md:flex-row gap-7 bg-blue-200/70 px-10 md:px-60 py-5 md:py-10">
+            <div className="flex flex-col md:flex-row gap-7 bg-blue-200/70 px-5 md:px-60 py-5 md:py-10">
                 <div className="flex-2 bg-white p-10 rounded-br-2xl rounded-tl-2xl">
                     <h1 className="text-2xl font-bold mb-5">Trademark Registration</h1>
                     <p className="text-md leading-10 tracking-widest">Protect your brand from hijackers and supply chain disruptions by registering your trademark not only in your selling markets but also in your sourcing countries. QCS Global Product Sourcing offers comprehensive trademark services to secure your intellectual property worldwide.</p>
@@ -82,7 +86,7 @@ export default function sourcing() {
 
             <div className="flex flex-col md:flex-row bg-orange-100/10">
                 <div className="flex-1 p-10">
-                    <Image src={hero_bg} alt="mission" width={500} height={300} className="rounded-xl"></Image>
+                    <Image src={hero_bg_sourcing} alt="mission" width={500} height={300} className="rounded-xl"></Image>
                 </div>
                 <div className="flex-2 p-10">
                     <p className="text-lg mb-10">QCS is your one-stop solution for providing high-quality food grains such as rice, maize, wheat and himalayan pink salt, as well as fresh vegetables and fruits, Globally.</p>
@@ -99,51 +103,51 @@ export default function sourcing() {
             </div>
 
             {/* Salt data */}
-            <div className="my-5 bg-green-200/10">
+            <div className="my-5 bg-green-300/10">
                 <div>
                     <h1 className="text-2xl md:text-5xl font-bold text-center text-blue-500 py-5">Pakistan Premium Rice</h1>
                     <p className="text-xl text-center py-5">Aromatic, long-grain and premium rice for international markets.</p>
                 </div>
                 <div className="grid grid-cols-2 md:grid-cols-4 items-center text-center gap-5 p-5 mx-auto md:mx-10">
                     <div>
-                        <Image src={rice_img_1} alt="mission" width={500} height={300} className=" hover:scale-90 translation duration-300" ></Image>
+                        <Image src={rice_img_sella} alt="mission" width={500} height={300} className=" hover:scale-90 translation duration-300" ></Image>
                         <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-blue-500 hover:bg-green-100 rounded-2xl">1121 Sella Rice</p>
                     </div>
                     <div>
-                        <Image src={rice_img_1} alt="mission" width={500} height={300} className=" hover:scale-90 translation duration-300" ></Image>
-                        <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-blue-500 hover:bg-green-100 rounded-2xl">1121 Sella Rice</p>
+                        <Image src={rice_img_steam} alt="mission" width={500} height={300} className=" hover:scale-90 translation duration-300" ></Image>
+                        <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-blue-500 hover:bg-green-100 rounded-2xl">1121 Steam Rice</p>
                     </div>
                     <div>
-                        <Image src={rice_img_1} alt="mission" width={500} height={300} className=" hover:scale-90 translation duration-300" ></Image>
-                        <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-blue-500 hover:bg-green-100 rounded-2xl">1121 Sella Rice</p>
+                        <Image src={rice_img_steam2} alt="mission" width={500} height={300} className=" hover:scale-90 translation duration-300" ></Image>
+                        <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-blue-500 hover:bg-green-100 rounded-2xl">1121 Steam Rice</p>
                     </div>
                     <div>
-                        <Image src={rice_img_1} alt="mission" width={500} height={300} className=" hover:scale-90 translation duration-300" ></Image>
-                        <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-blue-500 hover:bg-green-100 rounded-2xl">1121 Sella Rice</p>
+                        <Image src={rice_img_white} alt="mission" width={500} height={300} className=" hover:scale-90 translation duration-300" ></Image>
+                        <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-blue-500 hover:bg-green-100 rounded-2xl">1121 White Rice</p>
                     </div>
                 </div>
             </div>
 
-            <div className="my-5 bg-lime-100/20">
+            <div className="my-5 bg-lime-200/10">
                 <div>
                     <h1 className="text-2xl md:text-5xl font-bold text-center text-blue-500 py-5">Himalayan Pink Salt</h1>
                     <p className="text-xl text-center py-5">Pure and natural Himalayan pink salt for culinary and wellness use.</p>
                 </div>
                 <div className="grid grid-cols-2 md:grid-cols-4 items-center text-center gap-5 p-5 mx-auto md:mx-10">
                     <div>
-                        <Image src={rice_img_1} alt="mission" width={500} height={300} className="" ></Image>
+                        <Image src={salt_img_coarse} alt="mission" width={500} height={300} className="" ></Image>
                         <p>1121 Sella Rice</p>
                     </div>
                     <div>
-                        <Image src={rice_img_1} alt="mission" width={500} height={300} className="" ></Image>
+                        <Image src={rice_img_sella} alt="mission" width={500} height={300} className="" ></Image>
                         <p>1121 Sella Rice</p>
                     </div>
                     <div>
-                        <Image src={rice_img_1} alt="mission" width={500} height={300} className="" ></Image>
+                        <Image src={rice_img_sella} alt="mission" width={500} height={300} className="" ></Image>
                         <p>1121 Sella Rice</p>
                     </div>
                     <div>
-                        <Image src={rice_img_1} alt="mission" width={500} height={300} className="" ></Image>
+                        <Image src={rice_img_sella} alt="mission" width={500} height={300} className="" ></Image>
                         <p>1121 Sella Rice</p>
                     </div>
                 </div>
