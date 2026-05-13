@@ -84,7 +84,7 @@ export default function sourcing() {
                 </div>
             </div>
 
-            <div className="flex flex-col md:flex-row bg-orange-100/10">
+            <div className="flex flex-col md:flex-row bg-orange-100/10 items-center">
                 <div className="flex-1 p-10">
                     <Image src={hero_bg_sourcing} alt="mission" width={500} height={300} className="rounded-xl"></Image>
                 </div>

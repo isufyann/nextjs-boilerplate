@@ -66,6 +66,9 @@ export function FooterComponent() {
             Unit No. 824 Nargis Block, Allama Iqbal Town,
             Lahore, Punjab, Pakistan.
           </p>
+          <p className="flex items-start gap-2 text-cyan-400 mt-3 text-sm leading-relaxed">
+            <FaLocationDot />Izmir, Turkey.
+          </p>
         </div>
 
         {/* Social */}
@@ -81,6 +84,12 @@ export function FooterComponent() {
             </a>
             <a className="text-cyan-400 hover:text-blue-400 transition" href="#">
               LinkedIn
+            </a>
+            <a className="text-cyan-400 hover:text-blue-400 transition" href="#">
+              Twitter
+            </a>
+            <a className="text-cyan-400 hover:text-blue-400 transition" href="#">
+              Instagram
             </a>
           </div>
         </div>
