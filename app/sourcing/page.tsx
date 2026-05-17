@@ -9,6 +9,7 @@ import rice_img_steam from "@/public/img/rice_img_steam.png";
 import rice_img_steam2 from "@/public/img/rice_img_steam2.png";
 import rice_img_white from "@/public/img/rice_img_white.png";
 import salt_img_coarse from "@/public/img/salt_coarse.png";
+import salt_img_fine from "@/public/img/salt_fine_himaliyan.png";
 
 
 export default function sourcing() {
@@ -136,19 +137,19 @@ export default function sourcing() {
                 <div className="grid grid-cols-2 md:grid-cols-4 items-center text-center gap-5 p-5 mx-auto md:mx-10">
                     <div>
                         <Image src={salt_img_coarse} alt="mission" width={500} height={300} className="" ></Image>
-                        <p>1121 Sella Rice</p>
+                        <p>Coarse Himalyan Pink Salt</p>
+                    </div>
+                    <div>
+                        <Image src={salt_img_fine} alt="mission" width={500} height={300} className="" ></Image>
+                        <p>Fine Himalyan Pink Salt</p>
                     </div>
                     <div>
                         <Image src={rice_img_sella} alt="mission" width={500} height={300} className="" ></Image>
-                        <p>1121 Sella Rice</p>
+                        <p>Himalyan Pink Salt Lamp</p>
                     </div>
                     <div>
                         <Image src={rice_img_sella} alt="mission" width={500} height={300} className="" ></Image>
-                        <p>1121 Sella Rice</p>
-                    </div>
-                    <div>
-                        <Image src={rice_img_sella} alt="mission" width={500} height={300} className="" ></Image>
-                        <p>1121 Sella Rice</p>
+                        <p>Himalyan Pink Salt SPA Items</p>
                     </div>
                 </div>
             </div>
