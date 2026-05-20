@@ -10,6 +10,8 @@ import rice_img_steam2 from "@/public/img/rice_img_steam2.png";
 import rice_img_white from "@/public/img/rice_img_white.png";
 import salt_img_coarse from "@/public/img/salt_coarse.png";
 import salt_img_fine from "@/public/img/salt_fine_himaliyan.png";
+import salt_img_lamp from "@/public/img/salt_lamp.png";
+import mango_img_1 from "@/public/img/mango_img_1.jpg";
 
 
 export default function sourcing() {
@@ -112,19 +114,19 @@ export default function sourcing() {
                 <div className="grid grid-cols-2 md:grid-cols-4 items-center text-center gap-5 p-5 mx-auto md:mx-10">
                     <div>
                         <Image src={rice_img_sella} alt="mission" width={500} height={300} className=" hover:scale-90 translation duration-300" ></Image>
-                        <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-blue-500 hover:bg-green-100 rounded-2xl">1121 Sella Rice</p>
+                        <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-white hover:bg-blue-600 rounded-2xl">1121 Sella Rice</p>
                     </div>
                     <div>
                         <Image src={rice_img_steam} alt="mission" width={500} height={300} className=" hover:scale-90 translation duration-300" ></Image>
-                        <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-blue-500 hover:bg-green-100 rounded-2xl">1121 Steam Rice</p>
+                        <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-white hover:bg-blue-600 rounded-2xl">1121 Steam Rice</p>
                     </div>
                     <div>
                         <Image src={rice_img_steam2} alt="mission" width={500} height={300} className=" hover:scale-90 translation duration-300" ></Image>
-                        <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-blue-500 hover:bg-green-100 rounded-2xl">1121 Steam Rice</p>
+                        <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-white hover:bg-blue-600 rounded-2xl">1121 Steam Rice</p>
                     </div>
                     <div>
                         <Image src={rice_img_white} alt="mission" width={500} height={300} className=" hover:scale-90 translation duration-300" ></Image>
-                        <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-blue-500 hover:bg-green-100 rounded-2xl">1121 White Rice</p>
+                        <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-white hover:bg-blue-600 rounded-2xl">1121 White Rice</p>
                     </div>
                 </div>
             </div>
@@ -137,19 +139,43 @@ export default function sourcing() {
                 <div className="grid grid-cols-2 md:grid-cols-4 items-center text-center gap-5 p-5 mx-auto md:mx-10">
                     <div>
                         <Image src={salt_img_coarse} alt="mission" width={500} height={300} className="" ></Image>
-                        <p>Coarse Himalyan Pink Salt</p>
+                        <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-white hover:bg-blue-600 rounded-2xl">Coarse Himalyan Pink Salt</p>
                     </div>
                     <div>
                         <Image src={salt_img_fine} alt="mission" width={500} height={300} className="" ></Image>
-                        <p>Fine Himalyan Pink Salt</p>
+                        <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-white hover:bg-blue-600 rounded-2xl">Fine Himalyan Pink Salt</p>
+                    </div>
+                    <div>
+                        <Image src={salt_img_lamp} alt="mission" width={500} height={300} className="" ></Image>
+                        <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-white hover:bg-blue-600 rounded-2xl">Himalyan Pink Salt Lamp</p>
                     </div>
                     <div>
                         <Image src={rice_img_sella} alt="mission" width={500} height={300} className="" ></Image>
-                        <p>Himalyan Pink Salt Lamp</p>
+                        <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-white hover:bg-blue-600 rounded-2xl">Himalyan Pink Salt SPA Items</p>
+                    </div>
+                </div>
+            </div>
+            <div className="my-5 bg-lime-200/10">
+                <div>
+                    <h1 className="text-2xl md:text-5xl font-bold text-center text-blue-500 py-5">Mangos</h1>
+                    <p className="text-xl text-center py-5">Natural and sweatest Pakistani Mangos.</p>
+                </div>
+                <div className="grid grid-cols-2 md:grid-cols-4 items-center text-center gap-5 p-5 mx-auto md:mx-10">
+                    <div>
+                        <Image src={mango_img_1} alt="mission" width={500} height={300} className="" ></Image>
+                        <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-white hover:bg-blue-600 rounded-2xl">Mangos from Pakistan</p>
                     </div>
                     <div>
-                        <Image src={rice_img_sella} alt="mission" width={500} height={300} className="" ></Image>
-                        <p>Himalyan Pink Salt SPA Items</p>
+                        <Image src={mango_img_1} alt="mission" width={500} height={300} className="" ></Image>
+                        <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-white hover:bg-blue-600 rounded-2xl">Mangos from Pakistan</p>
+                    </div>
+                    <div>
+                        <Image src={mango_img_1} alt="mission" width={500} height={300} className="" ></Image>
+                        <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-white hover:bg-blue-600 rounded-2xl">Mangos from Pakistan</p>
+                    </div>
+                    <div>
+                        <Image src={mango_img_1} alt="mission" width={500} height={300} className="" ></Image>
+                        <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-white hover:bg-blue-600 rounded-2xl">Mangos from Pakistan</p>
                     </div>
                 </div>
             </div>
