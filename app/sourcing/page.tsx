@@ -138,19 +138,19 @@ export default function sourcing() {
                 </div>
                 <div className="grid grid-cols-2 md:grid-cols-4 items-center text-center gap-5 p-5 mx-auto md:mx-10">
                     <div>
-                        <Image src={salt_img_coarse} alt="mission" width={500} height={300} className="" ></Image>
+                        <Image src={salt_img_coarse} alt="mission" width={500} height={300} className="hover:scale-90 translation duration-300" ></Image>
                         <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-white hover:bg-blue-600 rounded-2xl">Coarse Himalyan Pink Salt</p>
                     </div>
                     <div>
-                        <Image src={salt_img_fine} alt="mission" width={500} height={300} className="" ></Image>
+                        <Image src={salt_img_fine} alt="mission" width={500} height={300} className="hover:scale-90 translation duration-300" ></Image>
                         <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-white hover:bg-blue-600 rounded-2xl">Fine Himalyan Pink Salt</p>
                     </div>
                     <div>
-                        <Image src={salt_img_lamp} alt="mission" width={500} height={300} className="" ></Image>
+                        <Image src={salt_img_lamp} alt="mission" width={500} height={300} className="hover:scale-90 translation duration-300" ></Image>
                         <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-white hover:bg-blue-600 rounded-2xl">Himalyan Pink Salt Lamp</p>
                     </div>
                     <div>
-                        <Image src={rice_img_sella} alt="mission" width={500} height={300} className="" ></Image>
+                        <Image src={rice_img_sella} alt="mission" width={500} height={300} className="hover:scale-90 translation duration-300" ></Image>
                         <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-white hover:bg-blue-600 rounded-2xl">Himalyan Pink Salt SPA Items</p>
                     </div>
                 </div>
@@ -162,19 +162,19 @@ export default function sourcing() {
                 </div>
                 <div className="grid grid-cols-2 md:grid-cols-4 items-center text-center gap-5 p-5 mx-auto md:mx-10">
                     <div>
-                        <Image src={mango_img_1} alt="mission" width={500} height={300} className="" ></Image>
+                        <Image src={mango_img_1} alt="mission" width={500} height={300} className="hover:scale-130 translation duration-300" ></Image>
                         <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-white hover:bg-blue-600 rounded-2xl">Mangos from Pakistan</p>
                     </div>
                     <div>
-                        <Image src={mango_img_1} alt="mission" width={500} height={300} className="" ></Image>
+                        <Image src={mango_img_1} alt="mission" width={500} height={300} className="hover:scale-130 translation duration-300" ></Image>
                         <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-white hover:bg-blue-600 rounded-2xl">Mangos from Pakistan</p>
                     </div>
                     <div>
-                        <Image src={mango_img_1} alt="mission" width={500} height={300} className="" ></Image>
+                        <Image src={mango_img_1} alt="mission" width={500} height={300} className="hover:scale-130 translation duration-300" ></Image>
                         <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-white hover:bg-blue-600 rounded-2xl">Mangos from Pakistan</p>
                     </div>
                     <div>
-                        <Image src={mango_img_1} alt="mission" width={500} height={300} className="" ></Image>
+                        <Image src={mango_img_1} alt="mission" width={500} height={300} className="hover:scale-130 translation duration-300" ></Image>
                         <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-white hover:bg-blue-600 rounded-2xl">Mangos from Pakistan</p>
                     </div>
                 </div>
