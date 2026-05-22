@@ -1,6 +1,11 @@
 import { HeaderComponent } from "@/app/components/HeaderComponent";
 import { FooterComponent } from "@/app/components/FooterComponent";
 import { FaPhone } from "react-icons/fa6";
+import { IoIosMail } from "react-icons/io";
+import { FaLocationDot } from "react-icons/fa6";
+import { LiaFaxSolid } from "react-icons/lia";
+
+
 
 export default function AboutComponent() {
     return (
@@ -37,32 +42,33 @@ export default function AboutComponent() {
                 </div>
 
                 <div className="bg-white rounded-2xl mx-5 py-15 p-5 inset-shadow-indigo-500 inset-shadow-sm drop-shadow-2xl hover:inset-shadow-none ease-in-out hover:drop-shadow-blue-950 duration-300">
-                    <FaPhone className="text-3xl mx-auto text-blue-500" />
-                    <p className="text-xl font-bold my-5">Phone</p>
-                    <a href="tel:+15551234567" className="text-blue-500 hover:underline my-5">
-                        +92-302-6775888
+                    <IoIosMail className="text-3xl mx-auto text-blue-500" />
+                    <p className="text-xl font-bold my-5">Mail</p>
+                    <a href="#" className="text-blue-500 hover:underline my-5">
+                        qualitycompliancesolution<br/>@gmail.com
                     </a>
                     <p className="text-slate-600 my-5">Call us during business hours</p>
                     <hr className="my-2 border-black max-w-3/4 mx-auto "></hr>
                 </div>
 
                 <div className="bg-white rounded-2xl mx-5 py-15 p-5 inset-shadow-indigo-500 inset-shadow-sm drop-shadow-2xl hover:inset-shadow-none ease-in-out hover:drop-shadow-blue-950 duration-300">
-                    <FaPhone className="text-3xl mx-auto text-blue-500" />
-                    <p className="text-xl font-bold my-5">Phone</p>
-                    <a href="tel:+15551234567" className="text-blue-500 hover:underline my-5">
-                        +92-302-6775888
+                    <FaLocationDot className="text-3xl mx-auto text-blue-500" />
+                    <p className="text-xl font-bold my-5">Address</p>
+                    <a href="#" className="text-blue-500 hover:underline my-5">
+                        Pakistan/Turkey
                     </a>
-                    <p className="text-slate-600 my-5">Call us during business hours</p>
+                    <p className="text-slate-600 my-5">Lahore, Punjab, Pakistan.</p>
+                    <p className="text-slate-600 my-5">Izmir, Turkey.</p>
                     <hr className="my-2 border-black max-w-3/4 mx-auto "></hr>
                 </div>
 
                 <div className="bg-white rounded-2xl mx-5 py-15 p-5 inset-shadow-indigo-500 inset-shadow-sm drop-shadow-2xl hover:inset-shadow-none ease-in-out hover:drop-shadow-blue-950 duration-300">
-                    <FaPhone className="text-3xl mx-auto text-blue-500" />
-                    <p className="text-xl font-bold my-5">Phone</p>
+                    <LiaFaxSolid className="text-3xl mx-auto text-blue-500" />
+                    <p className="text-xl font-bold my-5">Fax</p>
                     <a href="tel:+15551234567" className="text-blue-500 hover:underline my-5">
                         +92-302-6775888
                     </a>
-                    <p className="text-slate-600 my-5">Call us during business hours</p>
+                    <p className="text-slate-600 my-5">Fax us any time</p>
                     <hr className="my-2 border-black max-w-3/4 mx-auto "></hr>
                 </div>
             </section>
@@ -145,6 +151,12 @@ export default function AboutComponent() {
                             <span className="text-purple-600">✔</span>
                             <p className="font-semibold">
                                 Commitment to Excellence
+                            </p>
+                        </div>
+                        <div className="flex items-start gap-2">
+                            <span className="text-purple-600">✔</span>
+                            <p className="font-semibold">
+                                Maximum Quality Assurance 
                             </p>
                         </div>
                     </div>

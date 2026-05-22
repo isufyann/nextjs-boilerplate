@@ -86,7 +86,7 @@ export default function HomeComponent() {
 
       {/* Stats */}
       <section className="bg-blue-900 text-white py-15 md:py-30 relative">
-        <div className="max-w-7xl mx-auto px-2 grid grid-cols-1 md:grid-cols-4 gap-1 md:gap-5 text-center">
+        <div className="grid grid-cols-1 md:grid-cols-4 max-w-7xl mx-auto px-2 gap-1 md:gap-5 text-center">
 
           <div>
             <div className="text-2xl md:text-5xl my-2 md:my-5">⚙️</div>
@@ -157,7 +157,7 @@ export default function HomeComponent() {
       <section className="py-12 text-center">
         <h1 className="text-2xl md:text-5xl font-bold mb-2">Our Services</h1>
         <p className="text-sm md:text-2xl">We offer top-notch inspection and audit services to strengthen your operations.</p>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-10 mt-8 max-w-7xl mx-15 md:mx-auto rounded-lg p-5">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-10 mt-8 max-w-7xl mx-2 md:mx-auto rounded-lg p-5">
           <div className="border-2 rounded-2xl border-blue-500 md:border-orange-200 py-5 duration-300 ease-in-out hover:-translate-y-5 hover:shadow-lg hover:border-blue-500">
             <h2 className="text-2xl font-bold">Final Inspection</h2>
             <p>At Inspection, we are offering Fabric Inspection services through our third-party inspection solutions.</p>
@@ -179,7 +179,7 @@ export default function HomeComponent() {
             <p>Get your product safely, efficiently and effectively to market.</p>
           </div>
           <div className="border-2 rounded-2xl border-blue-500 md:border-orange-200 py-5 duration-300 ease-in-out hover:-translate-y-5 hover:shadow-lg hover:border-blue-500">
-            <h2 className="text-2xl font-bold">Government Certification</h2>
+            <h2 className="text-2xl font-bold px-5">Government Certification</h2>
             <p>Quality services according to international regulations and standards.</p>
           </div>
         </div>

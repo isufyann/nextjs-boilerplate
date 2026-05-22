@@ -21,7 +21,7 @@ export default function InspectionCustomersComponent() {
                         we have worked with
                     </p>
                 </div>
-                <div className="grid grid-cols-4 md:grid-cols-8 gap-5 ml-15 mr-15 items-center">
+                <div className="grid grid-cols-4 md:grid-cols-8 gap-2 md:gap-5 ml-5 md:ml-15 mr-5 md:mr-15 items-center">
                     <div><Image src={HM} alt="Levi's" className="rounded-xl tranisition-all duration-300 ease-in-out hover:scale-150"></Image></div>
                     <div><Image src={JCPenny} alt="Levi's" className="rounded-xl tranisition-all duration-300 ease-in-out hover:scale-150"></Image></div>
                     <div><Image src={LeeCooper} alt="Levi's" className="rounded-xl tranisition-all duration-300 ease-in-out hover:scale-150"></Image></div>

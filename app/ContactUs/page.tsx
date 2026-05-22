@@ -1,6 +1,10 @@
 import { HeaderComponent } from "@/app/components/HeaderComponent";
 import { FooterComponent } from "@/app/components/FooterComponent";
 import { FaPhone } from "react-icons/fa6";
+import { IoIosMail } from "react-icons/io";
+import { FaLocationDot } from "react-icons/fa6";
+import { LiaFaxSolid } from "react-icons/lia";
+
 
 export default function ContactUsComponent() {
     return (
@@ -22,49 +26,50 @@ export default function ContactUsComponent() {
                 </div>
             </section>
 
-            {/* Contact Cards */}
-            <section className="grid grid-cols-1 md:grid-cols-4 gap-2 max-w-9xl mx-auto py-10 my-10 text-center">
-                <div className="bg-white rounded-2xl mx-5 py-15 p-5 inset-shadow-indigo-500 inset-shadow-sm drop-shadow-2xl hover:inset-shadow-none ease-in-out hover:drop-shadow-blue-950 duration-300">
-                    <FaPhone className="text-3xl mx-auto text-blue-500" />
-                    <p className="text-xl font-bold my-5">Phone</p>
-                    <a href="tel:+15551234567" className="text-blue-500 hover:underline my-5">
-                        +92-302-6775888
-                    </a>
-                    <p className="text-slate-600 my-5">Call us during business hours</p>
-                    <hr className="my-2 border-black max-w-3/4 mx-auto "></hr>
-                </div>
-
-                <div className="bg-white rounded-2xl mx-5 py-15 p-5 inset-shadow-indigo-500 inset-shadow-sm drop-shadow-2xl hover:inset-shadow-none ease-in-out hover:drop-shadow-blue-950 duration-300">
-                    <FaPhone className="text-3xl mx-auto text-blue-500" />
-                    <p className="text-xl font-bold my-5">Phone</p>
-                    <a href="tel:+15551234567" className="text-blue-500 hover:underline my-5">
-                        +92-302-6775888
-                    </a>
-                    <p className="text-slate-600 my-5">Call us during business hours</p>
-                    <hr className="my-2 border-black max-w-3/4 mx-auto "></hr>
-                </div>
-
-                <div className="bg-white rounded-2xl mx-5 py-15 p-5 inset-shadow-indigo-500 inset-shadow-sm drop-shadow-2xl hover:inset-shadow-none ease-in-out hover:drop-shadow-blue-950 duration-300">
-                    <FaPhone className="text-3xl mx-auto text-blue-500" />
-                    <p className="text-xl font-bold my-5">Phone</p>
-                    <a href="tel:+15551234567" className="text-blue-500 hover:underline my-5">
-                        +92-302-6775888
-                    </a>
-                    <p className="text-slate-600 my-5">Call us during business hours</p>
-                    <hr className="my-2 border-black max-w-3/4 mx-auto "></hr>
-                </div>
-
-                <div className="bg-white rounded-2xl mx-5 py-15 p-5 inset-shadow-indigo-500 inset-shadow-sm drop-shadow-2xl hover:inset-shadow-none ease-in-out hover:drop-shadow-blue-950 duration-300">
-                    <FaPhone className="text-3xl mx-auto text-blue-500" />
-                    <p className="text-xl font-bold my-5">Phone</p>
-                    <a href="tel:+15551234567" className="text-blue-500 hover:underline my-5">
-                        +92-302-6775888
-                    </a>
-                    <p className="text-slate-600 my-5">Call us during business hours</p>
-                    <hr className="my-2 border-black max-w-3/4 mx-auto "></hr>
-                </div>
-            </section>
-
+            
+                        {/* Contact Cards */}
+                        <section className="grid grid-cols-1 md:grid-cols-4 gap-2 max-w-9xl mx-auto py-10 my-10 text-center">
+                            <div className="bg-white rounded-2xl mx-5 py-15 p-5 inset-shadow-indigo-500 inset-shadow-sm drop-shadow-2xl hover:inset-shadow-none ease-in-out hover:drop-shadow-blue-950 duration-300">
+                                <FaPhone className="text-3xl mx-auto text-blue-500" />
+                                <p className="text-xl font-bold my-5">Phone</p>
+                                <a href="tel:+15551234567" className="text-blue-500 hover:underline my-5">
+                                    +92-302-6775888
+                                </a>
+                                <p className="text-slate-600 my-5">Call us during business hours</p>
+                                <hr className="my-2 border-black max-w-3/4 mx-auto "></hr>
+                            </div>
+            
+                            <div className="bg-white rounded-2xl mx-5 py-15 p-5 inset-shadow-indigo-500 inset-shadow-sm drop-shadow-2xl hover:inset-shadow-none ease-in-out hover:drop-shadow-blue-950 duration-300">
+                                <IoIosMail className="text-3xl mx-auto text-blue-500" />
+                                <p className="text-xl font-bold my-5">Mail</p>
+                                <a href="#" className="text-blue-500 hover:underline my-5">
+                                    qualitycompliancesolution<br/>@gmail.com
+                                </a>
+                                <p className="text-slate-600 my-5">Call us during business hours</p>
+                                <hr className="my-2 border-black max-w-3/4 mx-auto "></hr>
+                            </div>
+            
+                            <div className="bg-white rounded-2xl mx-5 py-15 p-5 inset-shadow-indigo-500 inset-shadow-sm drop-shadow-2xl hover:inset-shadow-none ease-in-out hover:drop-shadow-blue-950 duration-300">
+                                <FaLocationDot className="text-3xl mx-auto text-blue-500" />
+                                <p className="text-xl font-bold my-5">Address</p>
+                                <a href="#" className="text-blue-500 hover:underline my-5">
+                                    Pakistan/Turkey
+                                </a>
+                                <p className="text-slate-600 my-5">Lahore, Punjab, Pakistan.</p>
+                                <p className="text-slate-600 my-5">Izmir, Turkey.</p>
+                                <hr className="my-2 border-black max-w-3/4 mx-auto "></hr>
+                            </div>
+            
+                            <div className="bg-white rounded-2xl mx-5 py-15 p-5 inset-shadow-indigo-500 inset-shadow-sm drop-shadow-2xl hover:inset-shadow-none ease-in-out hover:drop-shadow-blue-950 duration-300">
+                                <LiaFaxSolid className="text-3xl mx-auto text-blue-500" />
+                                <p className="text-xl font-bold my-5">Fax</p>
+                                <a href="tel:+15551234567" className="text-blue-500 hover:underline my-5">
+                                    +92-302-6775888
+                                </a>
+                                <p className="text-slate-600 my-5">Fax us any time</p>
+                                <hr className="my-2 border-black max-w-3/4 mx-auto "></hr>
+                            </div>
+                        </section>
 
             {/* Contact Form Section */}
             <section className="bg-gray-100 py-16 px-4 sm:px-6 lg:px-8">
