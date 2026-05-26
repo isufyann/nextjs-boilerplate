@@ -29,14 +29,14 @@ export default function HomeComponent() {
       <section className="bg-[url('/img/hero_bg.jpg')] h-screen bg-cover bg-center py-5 mt-10 md:mt-20">
 
         <div className="max-w-4xl mx-auto bg-white/70 rounded-2xl p-6 mt-15 md:mt-30 sm:p-10 shadow-lg items-center text-center">
-          <p className="text-blue-700 font-semibold">About Us</p>
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-800 mt-3">
+          <p className="text-blue-700 font-semibold slide-up">About Us</p>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-800 mt-3 slide-up">
             Quality Compliance Solutions <br />
-            <span className="text-black text-xl sm:text-2xl">
+            <span className="text-black text-xl sm:text-2xl slide-up">
               Trusted 3rd Party
             </span>
           </h1>
-          <p className="mt-4 text-gray-700 text-base sm:text-lg">
+          <p className="mt-4 text-gray-700 text-base sm:text-lg slide-up">
             Our mission is to provide best quality services and best support to our customer to solve they’re on ground critical
             quality issues and give accurate results. We are trying to become a best services provider to our valued customer.
           </p>

@@ -29,14 +29,14 @@ export default function ServicesComponent() {
             <section className="bg-[url('/img/hero_services.jpg')] h-screen bg-cover bg-center py-5 mt-10 md:mt-20">
 
                 <div className="max-w-4xl mx-auto bg-black/70 rounded-2xl p-6 mt-15 md:mt-30 sm:p-10 shadow-lg items-center text-center">
-                    <p className="text-white font-semibold">Services</p>
-                    <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mt-3">
+                    <p className="text-white font-semibold slide-up">Services</p>
+                    <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mt-3 slide-up">
                         Quality Compliance Solutions <br />
-                        <span className="text-white text-xl sm:text-2xl">
+                        <span className="text-white text-xl sm:text-2xl slide-up">
                             Trusted 3rd Party
                         </span>
                     </h1>
-                    <p className="mt-4 text-white text-base sm:text-lg">
+                    <p className="mt-4 text-white text-base sm:text-lg slide-up">
                         Ensuring Quality at Every Stage: Manufacturing and Product Inspections.
                     </p>
                 </div>
@@ -236,7 +236,7 @@ export default function ServicesComponent() {
                 <div>
                     <h1 className="text-3xl md:text-5xl font-bold text-black text-center my-5">During Production Check (DUPRO) & Inline Inspection (ILI)</h1>
                     <p className="text-lg text-left my-5 text-gray-800">
-                        <span className="font-bold">QCS</span> During Production Check is a comprehensive on-site inspection conducted once 20% of your order has been produced. This service verifies quantities, specifications, and product packaging before the manufacturing process is finalized, helping you prevent delays and resolve ongoing issues.
+                        <p><span className="font-bold">QCS</span> During Production Check is a comprehensive on-site inspection conducted once 20% of your order has been produced. This service verifies quantities, specifications, and product packaging before the manufacturing process is finalized, helping you prevent delays and resolve ongoing issues.</p>
                         <p>Our Inline Inspection (ILI) is a comprehensive on-site inspection conducted at various stages of the production process. This service verifies quantities, specifications, and product packaging before the manufacturing process is finalized, helping you prevent delays and resolve ongoing issues.</p>
                     </p>
                     <p className="text-lg text-left my-5 text-gray-800">

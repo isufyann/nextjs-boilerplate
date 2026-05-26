@@ -11,7 +11,12 @@ import rice_img_white from "@/public/img/rice_img_white.png";
 import salt_img_coarse from "@/public/img/salt_coarse.png";
 import salt_img_fine from "@/public/img/salt_fine_himaliyan.png";
 import salt_img_lamp from "@/public/img/salt_lamp.png";
+import salt_img_spa from "@/public/img/salt_himaliya_spa.png";
 import mango_img_1 from "@/public/img/mango_img_1.jpg";
+import mango_img_all from "@/public/img/mango_all_type.jpeg";
+import mango_img_granite from "@/public/img/mango_granite.jpeg";
+import mango_img_multani from "@/public/img/mango_multani_chonsa.jpeg";
+import mango_img_safaid from "@/public/img/mango_safaid_chonsa.jpeg";
 
 
 export default function sourcing() {
@@ -20,14 +25,14 @@ export default function sourcing() {
             <HeaderComponent />
             <section className="bg-[url('/img/hero_bg.jpg')] h-screen bg-cover bg-center py-5 mt-10 md:mt-20">
                 <div className="max-w-4xl mx-auto bg-white/70 rounded-2xl p-6 mt-15 md:mt-30 sm:p-10 shadow-lg items-center text-center">
-                    <p className="text-blue-700 font-semibold">Sourcing</p>
-                    <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-800 mt-3">
+                    <p className="text-blue-700 font-semibold slide-up">Sourcing</p>
+                    <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-800 mt-3 slide-up">
                         Quality Compliance Solutions <br />
-                        <span className="text-red-700 text-xl sm:text-2xl">
+                        <span className="text-red-700 text-xl sm:text-2xl slide-up">
                             Product Costs Too High? <br /> Stop Overpaying. Start with Us.
                         </span>
                     </h1>
-                    <p className="mt-4 text-gray-700 text-base sm:text-lg">
+                    <p className="mt-4 text-gray-700 text-base sm:text-lg slide-up">
                         Your Competitive Edge in Sorucing: Whether you're a brand owner, industrial buyer, or supply chain manager, we help you secure top-quality products and raw materials--At unbeatable prices.
                     </p>
                 </div>
@@ -37,13 +42,13 @@ export default function sourcing() {
 
 
             <div className="flex flex-col md:flex-col my-10 text-center bg-blue-50 px-15 py-10 rounded-2xl">
-                <h1 className="text-3xl md:text-5xl font-bold mb-10 tracking-widest">What <span className="text-red-500">We Do & Who We</span> Help</h1>
+                <h1 className="text-3xl md:text-5xl font-bold mb-10 tracking-widest  slide-up">What <span className="text-red-500">We Do & Who We</span> Help</h1>
                 <p className="text-lg md:text-2xl px-5 md:px-50 tracking-wider leading-10">QCS Global Product sourcing helps business of all sizes source high-quality products and raw material at the best prices, solve supply chain challenges, and ensure reliable delivery</p>
             </div>
 
 
             <section className="flex flex-col md:flex-row bg-black/70 tracking-widest px-5 py-10 md:px-30 md:py-10 rounded-2xl">
-                <div className="flex-1 text-5xl md:text-7xl font-bold text-white mx-10 md:mx-20 my-5 md:my-10">
+                <div className="flex-1 text-5xl md:text-7xl font-bold text-white mx-10 md:mx-20 my-5 md:my-10 slide-up">
                     Servies
                 </div>
                 <div className="flex-2 text-lg md:text-2xl text-white leading-10 mx-10 md:mx-20 my-5 md:my-10">
@@ -88,7 +93,7 @@ export default function sourcing() {
             </div>
 
             <div className="flex flex-col md:flex-row bg-orange-100/10 items-center">
-                <div className="flex-1 p-10">
+                <div className="flex-1 p-10 slide-up">
                     <Image src={hero_bg_sourcing} alt="mission" width={500} height={300} className="rounded-xl"></Image>
                 </div>
                 <div className="flex-2 p-10">
@@ -150,7 +155,7 @@ export default function sourcing() {
                         <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-white hover:bg-blue-600 rounded-2xl">Himalyan Pink Salt Lamp</p>
                     </div>
                     <div>
-                        <Image src={rice_img_sella} alt="mission" width={500} height={300} className="hover:scale-90 translation duration-300" ></Image>
+                        <Image src={salt_img_spa} alt="mission" width={500} height={300} className="hover:scale-90 translation duration-300" ></Image>
                         <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-white hover:bg-blue-600 rounded-2xl">Himalyan Pink Salt SPA Items</p>
                     </div>
                 </div>
@@ -161,20 +166,20 @@ export default function sourcing() {
                     <p className="text-xl text-center py-5">Natural and sweatest Pakistani Mangos.</p>
                 </div>
                 <div className="grid grid-cols-2 md:grid-cols-4 items-center text-center gap-5 p-5 mx-auto md:mx-10">
-                    <div>
-                        <Image src={mango_img_1} alt="mission" width={500} height={300} className="hover:scale-130 translation duration-300" ></Image>
+                    <div className="border-2 rounded-2xl">
+                        <Image src={mango_img_all} alt="mission" width={500} height={300} className="border-2 rounded-2xl hover:scale-130 translation duration-300" ></Image>
                         <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-white hover:bg-blue-600 rounded-2xl">Mangos from Pakistan</p>
                     </div>
-                    <div>
-                        <Image src={mango_img_1} alt="mission" width={500} height={300} className="hover:scale-130 translation duration-300" ></Image>
+                    <div className="border-2 rounded-2xl">
+                        <Image src={mango_img_granite} alt="mission" width={500} height={300} className="border-2 rounded-2xl hover:scale-130 translation duration-300" ></Image>
                         <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-white hover:bg-blue-600 rounded-2xl">Mangos from Pakistan</p>
                     </div>
-                    <div>
-                        <Image src={mango_img_1} alt="mission" width={500} height={300} className="hover:scale-130 translation duration-300" ></Image>
+                    <div className="border-2 rounded-2xl">
+                        <Image src={mango_img_multani} alt="mission" width={500} height={300} className="border-2 rounded-2xl hover:scale-130 translation duration-300" ></Image>
                         <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-white hover:bg-blue-600 rounded-2xl">Mangos from Pakistan</p>
                     </div>
-                    <div>
-                        <Image src={mango_img_1} alt="mission" width={500} height={300} className="hover:scale-130 translation duration-300" ></Image>
+                    <div className="border-2 rounded-2xl">
+                        <Image src={mango_img_safaid} alt="mission" width={500} height={300} className="border-2 rounded-2xl hover:scale-130 translation duration-300" ></Image>
                         <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-white hover:bg-blue-600 rounded-2xl">Mangos from Pakistan</p>
                     </div>
                 </div>

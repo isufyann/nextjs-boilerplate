@@ -11,17 +11,17 @@ export default function InspectionCustomersComponent() {
 
             {/* Brands */}
             <section className="pb-20 pt-10 text-center bg-blue-900 border-2 rounded-lg mx-2">
-                <h2 className="text-2xl md:text-5xl text-white font-bold mb-6">
+                <h2 className="text-2xl md:text-5xl text-white font-bold mb-6 slide-up">
                     Local Inspection Of Customers
                 </h2>
                 <div>
-                    <p className="text-gray-300 mb-4">
+                    <p className="text-gray-300 mb-4 slide-up">
                         We have been providing quality inspection services to various
                         customers across different industries. Here are some of the brands
                         we have worked with
                     </p>
                 </div>
-                <div className="grid grid-cols-4 md:grid-cols-8 gap-2 md:gap-5 ml-5 md:ml-15 mr-5 md:mr-15 items-center">
+                <div className="grid grid-cols-4 md:grid-cols-8 gap-2 md:gap-5 ml-5 md:ml-15 mr-5 md:mr-15 items-center slide-up">
                     <div><Image src={HM} alt="Levi's" className="rounded-xl tranisition-all duration-300 ease-in-out hover:scale-150"></Image></div>
                     <div><Image src={JCPenny} alt="Levi's" className="rounded-xl tranisition-all duration-300 ease-in-out hover:scale-150"></Image></div>
                     <div><Image src={LeeCooper} alt="Levi's" className="rounded-xl tranisition-all duration-300 ease-in-out hover:scale-150"></Image></div>
