@@ -1,16 +1,10 @@
 // "use client";
 // import { useState } from "react";
 
+import Image from "next/image";
 import { HeaderComponent } from "@/app/components/HeaderComponent";
 import { FooterComponent } from "@/app/components/FooterComponent";
 import InspectionCustomersComponent from "../components/InspectionCustComponent";
-
-import Image from "next/image";
-import Levi from "@/public/img/brand_ Levi.png";
-import HM from "@/public/img/brand_H&M.png";
-import JCPenny from "@/public/img/brand_JCPenney-Logo.png";
-import LeeCooper from "@/public/img/brand_Lee-Cooper.png";
-import TESCO from "@/public/img/brand_TESCO.png";
 
 import inspection from "@/public/img/icon_card_inspection.png";
 import audit from "@/public/img/icon_card_audit.png";
@@ -29,7 +23,7 @@ export default function HomeComponent() {
       <section className="bg-[url('/img/hero_bg.jpg')] h-screen bg-cover bg-center py-5 mt-10 md:mt-20">
 
         <div className="max-w-4xl mx-auto bg-white/70 rounded-2xl p-6 mt-15 md:mt-30 sm:p-10 shadow-lg items-center text-center">
-          <p className="text-blue-700 font-semibold slide-up">About Us</p>
+          <p className="text-blue-700 font-semibold slide-up">Q C S</p>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-800 mt-3 slide-up">
             Quality Compliance Solutions <br />
             <span className="text-black text-xl sm:text-2xl slide-up">
