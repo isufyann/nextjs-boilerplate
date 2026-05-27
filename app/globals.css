@@ -30,13 +30,39 @@ body {
     transform: translateY(50px);
     opacity: 0;
   }
-
   to {
     transform: -translateY(0);
     opacity: 1;
   }
 }
-
 .slide-up {
   animation: slideUp 0.8s ease-out forwards;
+}
+
+@keyframes slideRight {
+  from {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.slide-right {
+  animation: slideRight 0.9s ease-out forwards;
+}
+
+@keyframes slideLeft {
+  from {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.slide-left {
+  animation: slideLeft 0.9s ease-out forwards;
 }

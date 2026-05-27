@@ -1,15 +1,12 @@
-// "use client";
-// import { useState } from "react";
-
 import Image from "next/image";
-import { HeaderComponent } from "@/app/components/HeaderComponent";
-import { FooterComponent } from "@/app/components/FooterComponent";
 import InspectionCustomersComponent from "../components/InspectionCustComponent";
 
 import inspection from "@/public/img/icon_card_inspection.png";
 import audit from "@/public/img/icon_card_audit.png";
 import labTest from "@/public/img/icon_card_lab-technician.png";
 import certificate from "@/public/img/icon_card_certificate.png";
+import YourBusiness from "../components/yourBusiness";
+
 
 
 export default function HomeComponent() {
@@ -17,7 +14,6 @@ export default function HomeComponent() {
 
   return (
     <main className="font-sans">
-      <HeaderComponent />
 
       {/* Hero Section */}
       <section className="bg-[url('/img/hero_bg.jpg')] h-screen bg-cover bg-center py-5 mt-10 md:mt-20">
@@ -42,7 +38,7 @@ export default function HomeComponent() {
 
       {/* Mission */}
       <section className="flex flex-col md:flex-row bg-gray-200 py-10 items-center justify-center gap-5 rounded-3xl mx-2">
-        <div className="w-3/4 md:w-1/2 md:px-20 justify-center items-center gap-5">
+        <div className="slide-right w-3/4 md:w-1/2 md:px-20 justify-center items-center gap-5">
           <h1 className="text-5xl align-center font-bold items-center align-center justify-center mb-10 text-center">Our Mission</h1>
           <p>
             Our mission to provide best quality services and best support to our customer to solve they’re on ground critical quality issues and give accurate results.
@@ -58,7 +54,7 @@ export default function HomeComponent() {
           </div>
         </div>
 
-        <div className="w-auto md:w-1/2 p-10">
+        <div className="slide-left w-auto md:w-1/2 p-10">
           <div className="block md:hidden">
             <Image src="/img/hero_bg.jpg" alt="mission" width={500} height={300} className="rounded-xl transition duration-500 hover:scale-130 hover:-translate-x-20 opacity-100 hover:opacity-0 hover:bg-[url('/img/hero_bg.jpg')]"></Image>
           </div>
@@ -232,10 +228,7 @@ export default function HomeComponent() {
         </button>
       </section>
       <hr className="my-10 border-black max-w-3/4 mx-auto "></hr>
-
-
-
-      <FooterComponent />
+      <YourBusiness />
     </main>
   );
 }

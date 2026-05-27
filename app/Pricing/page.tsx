@@ -1,11 +1,8 @@
-import { HeaderComponent } from "@/app/components/HeaderComponent";
-import { FooterComponent } from "@/app/components/FooterComponent";
 
 
 export default function PricingPage() {
   return (
     <main id="pricing"> 
-    <HeaderComponent/> 
     <div>
       {/* Hero */}
       <section className="bg-[url('/img/hero_bg.jpg')] bg-cover bg-center text-center py-20 text-white">
@@ -93,7 +90,6 @@ export default function PricingPage() {
         </button>
       </section>
     </div>
-    <FooterComponent/>
     </main>
   );
 }

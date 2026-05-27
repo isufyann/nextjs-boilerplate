@@ -1,8 +1,5 @@
-import { FooterComponent } from "../components/FooterComponent";
-import { HeaderComponent } from "../components/HeaderComponent";
 
 import Image from "next/image";
-import hero_bg from "@/public/img/hero_bg.jpg"
 import hero_bg_sourcing from "@/public/img/QCS_sourcing.png"
 import rice_img_sella from "@/public/img/rice_img_sella.png";
 import rice_img_steam from "@/public/img/rice_img_steam.png";
@@ -17,12 +14,12 @@ import mango_img_all from "@/public/img/mango_all_type.png";
 import mango_img_granite from "@/public/img/mango_granite.jpeg";
 import mango_img_multani from "@/public/img/mango_multani_chonsa.png";
 import mango_img_safaid from "@/public/img/mango_safaid_chonsa.png";
+import YourBusiness from "../components/yourBusiness";
 
 
 export default function sourcing() {
     return (
         <main>
-            <HeaderComponent />
             <section className="bg-[url('/img/hero_bg.jpg')] h-screen bg-cover bg-center py-5 mt-10 md:mt-20">
                 <div className="max-w-4xl mx-auto bg-white/70 rounded-2xl p-6 mt-15 md:mt-30 sm:p-10 shadow-lg items-center text-center">
                     <p className="text-blue-700 font-semibold slide-up">Sourcing</p>
@@ -48,10 +45,10 @@ export default function sourcing() {
 
 
             <section className="flex flex-col md:flex-row bg-black/70 tracking-widest px-5 py-10 md:px-30 md:py-10 rounded-2xl">
-                <div className="flex-1 text-5xl md:text-7xl font-bold text-white mx-10 md:mx-20 my-5 md:my-10 slide-up">
+                <div className="slide-right flex-1 text-5xl md:text-7xl font-bold text-white mx-10 md:mx-20 my-5 md:my-10 slide-up">
                     Servies
                 </div>
-                <div className="flex-2 text-lg md:text-2xl text-white leading-10 mx-10 md:mx-20 my-5 md:my-10">
+                <div className="slide-left flex-2 text-lg md:text-2xl text-white leading-10 mx-10 md:mx-20 my-5 md:my-10">
                     We source quality products from the best global suppliers for your business, saving you money and time while also reducing risks.
                 </div>
             </section>
@@ -184,10 +181,7 @@ export default function sourcing() {
                     </div>
                 </div>
             </div>
-
-
-
-            <FooterComponent />
+            <YourBusiness />
         </main >
     );
 }

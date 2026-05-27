@@ -1,5 +1,3 @@
-import { HeaderComponent } from "@/app/components/HeaderComponent";
-import { FooterComponent } from "@/app/components/FooterComponent";
 import { FaPhone } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
 import { FaLocationDot } from "react-icons/fa6";
@@ -10,8 +8,6 @@ import { LiaFaxSolid } from "react-icons/lia";
 export default function AboutComponent() {
     return (
         <>
-            <HeaderComponent />
-
             {/* Hero Section */}
             <section className="bg-[url('/img/hero_about-us.png')] h-screen bg-cover bg-center py-16 px-4 sm:px-6 lg:px-8 mt-20 text-center">
                 <div className="max-w-4xl mx-auto bg-black rounded-2xl p-6 mt-5 md:mt-20 sm:p-10 shadow-lg">
@@ -45,7 +41,7 @@ export default function AboutComponent() {
                     <IoIosMail className="text-3xl mx-auto text-blue-500" />
                     <p className="text-xl font-bold my-5">Mail</p>
                     <a href="#" className="text-blue-500 hover:underline my-5">
-                        qualitycompliancesolution<br/>@gmail.com
+                        qualitycompliancesolution<br />@gmail.com
                     </a>
                     <p className="text-slate-600 my-5">Call us during business hours</p>
                     <hr className="my-2 border-black max-w-3/4 mx-auto "></hr>
@@ -156,7 +152,7 @@ export default function AboutComponent() {
                         <div className="flex items-start gap-2">
                             <span className="text-purple-600">✔</span>
                             <p className="font-semibold">
-                                Maximum Quality Assurance 
+                                Maximum Quality Assurance
                             </p>
                         </div>
                     </div>
@@ -199,8 +195,6 @@ export default function AboutComponent() {
                     </div>
                 </div>
             </section>
-
-            <FooterComponent />
         </>
     );
 }

@@ -1,15 +1,4 @@
-// "use client";
-// import { useState } from "react";
-
-import { HeaderComponent } from "@/app/components/HeaderComponent";
-import { FooterComponent } from "@/app/components/FooterComponent";
-
 import Image from "next/image";
-import Levi from "@/public/img/brand_ Levi.png";
-import HM from "@/public/img/brand_H&M.png";
-import JCPenny from "@/public/img/brand_JCPenney-Logo.png";
-import LeeCooper from "@/public/img/brand_Lee-Cooper.png";
-import TESCO from "@/public/img/brand_TESCO.png";
 
 import inspection from "@/public/img/icon_card_inspection.png";
 import audit from "@/public/img/icon_card_audit.png";
@@ -23,7 +12,6 @@ export default function ServicesComponent() {
 
     return (
         <main className="font-sans">
-            <HeaderComponent />
 
             {/* Hero Section */}
             <section className="bg-[url('/img/hero_services.jpg')] h-screen bg-cover bg-center py-5 mt-10 md:mt-20">
@@ -504,10 +492,6 @@ export default function ServicesComponent() {
             </section>
 
             <hr className="my-10 border-black w-3/4 mx-auto"></hr>
-
-
-
-            <FooterComponent />
         </main>
     );
 }

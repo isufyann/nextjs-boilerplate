@@ -1,32 +1,17 @@
-// "use client";
-// import { useState } from "react";
-
-import { HeaderComponent } from "@/app/components/HeaderComponent";
-import { FooterComponent } from "@/app/components/FooterComponent";
 import AQLComponent from "@/app/components/AQLComponent";
 
 import Image from "next/image";
-import Levi from "@/public/img/brand_ Levi.png";
-import HM from "@/public/img/brand_H&M.png";
-import JCPenny from "@/public/img/brand_JCPenney-Logo.png";
-import LeeCooper from "@/public/img/brand_Lee-Cooper.png";
-import TESCO from "@/public/img/brand_TESCO.png";
-
 import inspection from "@/public/img/icon_card_inspection.png";
 import audit from "@/public/img/icon_card_audit.png";
 import labTest from "@/public/img/icon_card_lab-technician.png";
 import certificate from "@/public/img/icon_card_certificate.png";
 
-import { IoIosSettings } from "react-icons/io";
 import InspectionCustomersComponent from "../components/InspectionCustComponent";
 
 
 export default function AQLLevel() {
-    // const [menuOpen, setMenuOpen] = useState(false);
-
     return (
         <main className="font-sans">
-            <HeaderComponent />
 
             {/* Hero Section */}
             <section className="bg-[url('/img/hero_aql.jpg')] h-screen bg-cover bg-center py-5 mt-10 md:mt-20">
@@ -56,7 +41,6 @@ export default function AQLLevel() {
             <AQLComponent />
 
             <hr className="my-10 border-black w-3/4 mx-auto" />
-
 
 
             {/* Stats */}
@@ -162,8 +146,6 @@ export default function AQLLevel() {
                 </button>
             </section>
             <hr className="my-10 border-black max-w-3/4 mx-auto "></hr>
-
-            <FooterComponent />
         </main>
     );
 }
