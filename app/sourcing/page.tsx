@@ -168,7 +168,7 @@ export default function sourcing() {
                 <div className="grid grid-cols-2 md:grid-cols-4 items-center text-center gap-5 p-5 mx-auto md:mx-10">
                     <div className="rounded-2x">
                         <Image src={mango_img_all} alt="mission" width={500} height={300} className="hover:scale-130 translation duration-300" ></Image>
-                        <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-white hover:bg-blue-600 rounded-2xl">Kalaa Chunsa, Fajri, Sanglasia</p>
+                        <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-white hover:bg-blue-600 rounded-2xl">Kalaa Chunsa, Fajri</p>
                     </div>
                     <div className="rounded-2xl">
                         <Image src={mango_img_granite} alt="mission" width={500} height={300} className="border-x-4 border-t-4 border-gray-800 hover:scale-130 translation duration-300" ></Image>
