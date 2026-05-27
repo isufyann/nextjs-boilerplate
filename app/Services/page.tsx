@@ -1,15 +1,10 @@
 import Image from "next/image";
 
-import inspection from "@/public/img/icon_card_inspection.png";
-import audit from "@/public/img/icon_card_audit.png";
-import labTest from "@/public/img/icon_card_lab-technician.png";
-import certificate from "@/public/img/icon_card_certificate.png";
 import InspectionCustomersComponent from "../components/InspectionCustComponent";
-import poor_production from "@/public/img/poor-production.jpg"; 
+import poor_production from "@/public/img/poor-production.jpg";
 
 
 export default function ServicesComponent() {
-    // const [menuOpen, setMenuOpen] = useState(false);
 
     return (
         <main className="font-sans">
@@ -150,55 +145,105 @@ export default function ServicesComponent() {
 
             <hr className="my-10 border-black w-3/4 mx-auto" />
 
-            <section className="grid grid-cols-1 md:grid-cols-2 gap-10 bg-gray-200 rounded-lg px-10 py-10 text-center mx-5 md:mx-15">
+            <section className="grid grid-cols-1 lg:grid-cols-2 gap-10 bg-gray-200 rounded-2xl px-6 md:px-10 lg:px-16 py-10 mx-4 md:mx-10 lg:mx-16 items-center">
+
+                {/* LEFT CONTENT */}
                 <div>
-                    <h1 className="text-3xl md:text-5xl font-bold text-black text-center my-5">Manufacturing and Product Inspections</h1>
-                    <p className="text-lg text-left my-5 text-gray-800">
-                        <span className="font-bold">QCS</span> product and manufacturing inspections help you ensure quality standards throughout your manufacturing process.
-                        Leverage our inspections at every stage of your supply chain to protect your business against product recalls,
-                        customer complaints, and reputational damage.
+                    <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-black text-center lg:text-left mb-6">
+                        Manufacturing and Product Inspections
+                    </h1>
+
+                    <p className="text-base md:text-lg text-gray-800 mb-5 text-left">
+                        <span className="font-bold">QCS</span> product and manufacturing inspections
+                        help you ensure quality standards throughout your manufacturing process.
+                        Leverage our inspections at every stage of your supply chain to protect
+                        your business against product recalls, customer complaints, and
+                        reputational damage.
                     </p>
-                    <p className="text-lg text-left my-5 text-gray-800">
-                        Our inspectors verify that your product specifications, including quality, functionality, and
-                        performance requirements, are fulfilled. Ultimately, these inspections prevent defective
-                        products from reaching the end consumer.</p>
-                    <p className="text-lg text-left my-5 text-gray-800">
-                        We provide comprehensive inspection services throughout the entire production process, including initial
-                        production check, during production checks, container loading check, pre-shipment inspection and
-                        production monitoring.</p>
+
+                    <p className="text-base md:text-lg text-gray-800 mb-5 text-left">
+                        Our inspectors verify that your product specifications, including
+                        quality, functionality, and performance requirements, are fulfilled.
+                        Ultimately, these inspections prevent defective products from reaching
+                        the end consumer.
+                    </p>
+
+                    <p className="text-base md:text-lg text-gray-800 text-left">
+                        We provide comprehensive inspection services throughout the entire
+                        production process, including initial production check, during production
+                        checks, container loading check, pre-shipment inspection and production
+                        monitoring.
+                    </p>
                 </div>
 
-                <div className="hidden md:block group relative h-100 w-1/2 md:w-auto">
-                    <Image src="/img/hero_bg_2.jpg" alt="primary" width={500} height={300} className="absolute inset-0 h-full w-full object-cover transition-opacity duration-500 group-hover:opacity-0 rounded-2xl">
-                    </Image>
-                    <Image src="/img/hero_bg.jpg" alt="Hover" width={500} height={300} className="absolute inset-0 h-full w-full object-cover opacity-0 transition-opacity duration-500 group-hover:opacity-100 rounded-2xl">
-                    </Image>
+                {/* RIGHT IMAGE */}
+                <div className="group relative w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-full min-h-[350px]">
+
+                    <Image
+                        src="/img/hero_bg_2.jpg"
+                        alt="Primary"
+                        fill
+                        className="object-cover rounded-2xl transition-opacity duration-500 group-hover:opacity-0"
+                    />
+                    <Image
+                        src="/img/hero_bg.jpg"
+                        alt="Hover"
+                        fill
+                        className="object-cover rounded-2xl opacity-0 transition-opacity duration-500 group-hover:opacity-100"
+                    />
                 </div>
             </section>
 
             <hr className="my-10 border-black w-3/4 mx-auto"></hr>
 
-            <section className="grid grid-cols-1 md:grid-cols-2 gap-10 bg-gray-200 rounded-lg px-10 py-10 text-center mx-5 md:mx-15">
-                <div className="hidden md:block group relative h-100 w-1/2 md:w-auto">
-                    <Image src="/img/hero_bg.jpg" alt="primary" width={500} height={300} className="absolute inset-0 h-full w-full object-cover transition-opacity duration-500 group-hover:opacity-0 rounded-2xl">
-                    </Image>
-                    <Image src="/img/hero_bg_2.jpg" alt="Hover" width={500} height={300} className="absolute inset-0 h-full w-full object-cover opacity-0 transition-opacity duration-500 group-hover:opacity-100 rounded-2xl">
-                    </Image>
+            <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 bg-gray-200 rounded-2xl px-6 sm:px-8 md:px-12 lg:px-16 py-8 md:py-12 mx-4 sm:mx-8 lg:mx-16 items-center">
+                {/* IMAGE */}
+                <div className="order-1 lg:order-none">
+                    <div className="group relative aspect-[4/3] w-full overflow-hidden rounded-2xl">
+                        <Image
+                            src="/img/hero_bg.jpg"
+                            alt="Primary"
+                            fill
+                            className="object-cover transition-opacity duration-500 group-hover:opacity-0"
+                        />
+                        <Image
+                            src="/img/hero_bg_2.jpg"
+                            alt="Hover"
+                            fill
+                            className="object-cover opacity-0 transition-opacity duration-500 group-hover:opacity-100"
+                        />
+                    </div>
                 </div>
 
-                <div>
-                    <h1 className="text-3xl md:text-5xl font-bold text-black text-center my-5">Pre-Shipment Inspection (PSI)</h1>
-                    <p className="text-lg text-left my-5 text-gray-800">
-                        Ensure your products meet your requirements before the production run is finished and your products are packed for shipment.
-                        <span className="font-bold">QCS’s</span> pre-shipment inspection is an intensive on-location examination conducted when 80%
-                        of your production order is complete. Our service helps you check if your products meet all required specifications,
-                        allowing you to take corrective actions before your production order is finalized.</p>
-                    <ul>
-                        <li className="text-lg text-left my-5 text-gray-800"><strong>Product Quality:</strong> Our inspectors check the quality of your products, including their functionality, performance, and durability. We also verify that your products meet all required safety standards.</li>
-                        <li className="text-lg text-left my-5 text-gray-800"><strong>Product Quantity:</strong> We verify that the quantity of your products matches your order specifications.</li>
-                        <li className="text-lg text-left my-5 text-gray-800"><strong>Packaging and Labeling:</strong> Our inspectors check that your products are properly packaged and labeled according to your requirements and industry standards.</li>
+                {/* CONTENT */}
+                <div className="order-2">
+                    <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black text-center lg:text-left mb-6">
+                        Pre-Shipment Inspection (PSI)
+                    </h1>
+                    <p className="text-sm sm:text-base lg:text-lg text-gray-800 leading-relaxed text-left mb-6">
+                        Ensure your products meet your requirements before the production run
+                        is finished and your products are packed for shipment.
+
+                        <span className="font-bold"> QCS’s </span>
+
+                        pre-shipment inspection is an intensive on-location examination
+                        conducted when 80% of your production order is complete.
+                    </p>
+                    <ul className="space-y-5 text-left text-sm sm:text-base lg:text-lg text-gray-800">
+                        <li>
+                            <strong>Product Quality:</strong> Verify quality,
+                            functionality, durability, and safety standards.
+                        </li>
+                        <li>
+                            <strong>Product Quantity:</strong> Confirm quantities match
+                            order specifications.
+                        </li>
+                        <li>
+                            <strong>Packaging & Labeling:</strong> Ensure packaging and
+                            labeling comply with requirements.
+                        </li>
                     </ul>
-                    <button className="mt-10 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-white hover:text-blue-600 transition-colors duration-300">
+                    <button className="mt-8 rounded-lg border border-blue-600 bg-blue-600 px-6 py-3 text-white transition-all duration-300 hover:bg-white hover:text-blue-600">
                         What is PSI?
                     </button>
                 </div>
@@ -225,71 +270,149 @@ export default function ServicesComponent() {
 
             <hr className="my-10 border-black w-3/4 mx-auto" />
 
-            <section className="grid grid-cols-1 md:grid-cols-2 gap-10 bg-gray-200 rounded-lg px-10 py-10 text-center mx-5 md:mx-15">
+            <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 bg-gray-200 rounded-2xl px-6 sm:px-8 md:px-12 lg:px-16 py-8 md:py-12 mx-4 sm:mx-8 lg:mx-16 items-center">
+                {/* CONTENT */}
                 <div>
-                    <h1 className="text-3xl md:text-5xl font-bold text-black text-center my-5">During Production Check (DUPRO) & Inline Inspection (ILI)</h1>
-                    <p className="text-lg text-left my-5 text-gray-800">
-                        <p><span className="font-bold">QCS</span> During Production Check is a comprehensive on-site inspection conducted once 20% of your order has been produced. This service verifies quantities, specifications, and product packaging before the manufacturing process is finalized, helping you prevent delays and resolve ongoing issues.</p>
-                        <p>Our Inline Inspection (ILI) is a comprehensive on-site inspection conducted at various stages of the production process. This service verifies quantities, specifications, and product packaging before the manufacturing process is finalized, helping you prevent delays and resolve ongoing issues.</p>
-                    </p>
-                    <p className="text-lg text-left my-5 text-gray-800">
-                        Our inspectors verify that your product specifications, including quality, functionality, and
-                        performance requirements, are fulfilled. Ultimately, these inspections prevent defective
-                        products from reaching the end consumer.</p>
-                    <p className="text-lg text-left my-5 text-gray-800">
-                        We provide comprehensive inspection services throughout the entire production process, including initial
-                        production check, during production checks, container loading check, pre-shipment inspection and
-                        production monitoring.</p>
+                    <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black text-center lg:text-left mb-6">
+                        During Production Check (DUPRO) & Inline Inspection (ILI)
+                    </h1>
+                    <div className="space-y-5 text-sm sm:text-base lg:text-lg text-gray-800 text-left leading-relaxed">
+                        <p>
+                            <span className="font-bold">QCS</span> During Production Check
+                            is a comprehensive on-site inspection conducted once 20% of
+                            your order has been produced. This service verifies quantities,
+                            specifications, and product packaging before manufacturing is
+                            finalized, helping prevent delays and resolve issues.
+                        </p>
+                        <p>
+                            Our Inline Inspection (ILI) is conducted at different stages of
+                            production. This service verifies quantities, specifications,
+                            and packaging before production completion.
+                        </p>
+                        <p>
+                            Our inspectors verify product specifications including quality,
+                            functionality, and performance requirements, preventing
+                            defective products from reaching consumers.
+                        </p>
+                        <p>
+                            We provide inspection services throughout the production
+                            process, including initial production checks, during-production
+                            checks, container loading checks, pre-shipment inspection, and
+                            production monitoring.
+                        </p>
+                    </div>
                 </div>
 
-                <div className="hidden md:block group relative h-100 w-1/2 md:w-auto">
-                    <Image src="/img/hero_bg_2.jpg" alt="primary" width={500} height={300} className="absolute inset-0 h-full w-full object-cover transition-opacity duration-500 group-hover:opacity-0 rounded-2xl">
-                    </Image>
-                    <Image src="/img/hero_bg.jpg" alt="Hover" width={500} height={300} className="absolute inset-0 h-full w-full object-cover opacity-0 transition-opacity duration-500 group-hover:opacity-100 rounded-2xl">
-                    </Image>
+                {/* IMAGE */}
+                <div>
+                    <div className="group relative aspect-[4/3] w-full overflow-hidden rounded-2xl">
+                        <Image
+                            src="/img/hero_bg_2.jpg"
+                            alt="Primary"
+                            fill
+                            className="object-cover transition-opacity duration-500 group-hover:opacity-0"
+                        />
+                        <Image
+                            src="/img/hero_bg.jpg"
+                            alt="Hover"
+                            fill
+                            className="object-cover opacity-0 transition-opacity duration-500 group-hover:opacity-100"
+                        />
+                    </div>
                 </div>
             </section>
-            {/* <div>
-            What Is a During Production Inspection - DUPRO?
-            A DUPRO inspection ensures that your factory follows quality specifications and completes each stage of production on time. When at least 20% of your order is complete, our inspector visits the factory to thoroughly review and test your product using industry-standard procedures. We can also conduct in-line inspections to identify potential issues early in the production process.
-            A full inspection report will be provided on our platform.
-            A pre-shipment inspection ensures your products meet your quality specifications before they are shipped. When at least 80% of your order is complete, an inspector visits the factory and uses industry-standard processes to comprehensively review and test your product. You’re provided with a full report, accessible through our online platform.
-            </div> */}
-
 
             <hr className="my-10 border-black w-3/4 mx-auto"></hr>
 
-            <section className="grid grid-cols-1 md:grid-cols-2 gap-10 bg-gray-200 rounded-lg px-10 py-10 text-center mx-5 md:mx-15">
-                <div className="hidden md:block group relative h-100 w-1/2 md:w-auto">
-                    <Image src="/img/hero_bg.jpg" alt="primary" width={500} height={300} className="absolute inset-0 h-full w-full object-cover transition-opacity duration-500 group-hover:opacity-0 rounded-2xl">
-                    </Image>
-                    <Image src="/img/hero_bg_2.jpg" alt="Hover" width={500} height={300} className="absolute inset-0 h-full w-full object-cover opacity-0 transition-opacity duration-500 group-hover:opacity-100 rounded-2xl">
-                    </Image>
+            <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 bg-gray-200 rounded-2xl px-6 sm:px-8 md:px-12 lg:px-16 py-8 md:py-12 mx-4 sm:mx-8 lg:mx-16 items-center">
+
+                {/* IMAGE */}
+                <div>
+
+                    <div className="group relative aspect-[4/3] w-full overflow-hidden rounded-2xl">
+
+                        <Image
+                            src="/img/hero_bg.jpg"
+                            alt="Primary"
+                            fill
+                            className="object-cover transition-opacity duration-500 group-hover:opacity-0"
+                        />
+
+                        <Image
+                            src="/img/hero_bg_2.jpg"
+                            alt="Hover"
+                            fill
+                            className="object-cover opacity-0 transition-opacity duration-500 group-hover:opacity-100"
+                        />
+
+                    </div>
+
                 </div>
 
+                {/* CONTENT */}
                 <div>
-                    <h1 className="text-3xl md:text-5xl font-bold text-black text-center my-5">Container Loading Check (CLC) for Shipment Quality Control</h1>
-                    <p className="text-lg text-left my-5 text-gray-800">
-                        Ensure accurate and secure delivery by addressing potential product and shipment issues in advance.
-                        <span className="font-bold">QCS’s</span>  container loading check is an exhaustive on-location inspection of product, packaging, and container loading quality. This service helps you prevent damage, ensure compliance with your requirements, and protect against delays, tampering, theft, or unauthorized access during transit.</p>
-                    <ul>
+
+                    <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black text-center lg:text-left mb-6">
+                        Container Loading Check (CLC) for Shipment Quality Control
+                    </h1>
+
+                    <p className="text-sm sm:text-base lg:text-lg text-gray-800 text-left leading-relaxed mb-6">
+
+                        Ensure accurate and secure delivery by addressing potential
+                        product and shipment issues in advance.
+
+                        <span className="font-bold"> QCS’s </span>
+
+                        container loading check is an exhaustive on-location inspection
+                        of product, packaging, and loading quality. This service helps
+                        prevent damage, ensure compliance, and protect against delays,
+                        tampering, theft, or unauthorized access during transit.
+
+                    </p>
+
+                    <ul className="space-y-4 text-left text-sm sm:text-base lg:text-lg text-gray-800 leading-relaxed">
+
                         <li>
-                            <strong>Product Quality:</strong> Our inspectors check the quality of your products, including their functionality, performance, and durability. We also verify that your products meet all required safety standards.</li>
-                        <li><strong>Product Quantity:</strong> We verify that the quantity of your products matches your order specifications.</li>
-                        <li><strong>Packaging and Labeling:</strong> Our inspectors check that your products are properly packaged and labeled according to your requirements and industry standards.</li>
-                        <li><strong>Container Loading:</strong> We verify that your products are loaded securely and correctly in the container, following your specifications and industry best practices.</li>
-                        <li><strong>Documentation:</strong> Our inspectors check that all necessary documentation, such as packing lists and bills of lading, is accurate and complete.</li>
-                        <li><strong>Compliance:</strong> We ensure that your shipment complies with all relevant regulations and standards, including those related to safety, security, and environmental protection.</li>
+                            <strong>Product Quality:</strong> Inspect functionality,
+                            performance, durability, and safety compliance.
+                        </li>
+
+                        <li>
+                            <strong>Product Quantity:</strong> Verify product quantities
+                            against order specifications.
+                        </li>
+
+                        <li>
+                            <strong>Packaging & Labeling:</strong> Confirm packaging and
+                            labeling meet requirements and standards.
+                        </li>
+
+                        <li>
+                            <strong>Container Loading:</strong> Ensure products are
+                            loaded securely following best practices.
+                        </li>
+
+                        <li>
+                            <strong>Documentation:</strong> Validate packing lists,
+                            bills of lading, and required shipment documents.
+                        </li>
+
+                        <li>
+                            <strong>Compliance:</strong> Confirm shipment compliance with
+                            safety, security, and environmental regulations.
+                        </li>
                     </ul>
-                    <button className="mt-10 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-white hover:text-blue-600 transition-colors duration-300">
+                    <button className="mt-8 rounded-lg border border-blue-600 bg-blue-600 px-6 py-3 text-white transition-all duration-300 hover:bg-white hover:text-blue-600">
                         What is CLI?
                     </button>
                 </div>
             </section>
+
             {/* <div>
                     <h1>What is a Container Loading Check (CLC)?</h1>
                     <p>A container loading check ensures that your products are loaded securely and correctly in the container, following your specifications and industry best practices. Our inspectors verify that your products meet all required quality standards, are properly packaged and labeled, and that all necessary documentation is accurate and complete. This service helps you prevent damage, ensure compliance with your requirements, and protect against delays, tampering, theft, or unauthorized access during transit.</p>
                 </div> */}
+
             <hr className="my-10 border-black max-w-3/4 mx-auto "></hr>
 
             <section className="bg-blue-50 py-12 px-4 sm:px-6 lg:px-12">
@@ -347,7 +470,7 @@ export default function ServicesComponent() {
                         </p>
                     </div>
 
-            <hr className="my-10 border-black w-3/4 mx-auto"></hr>
+                    <hr className="my-10 border-black w-3/4 mx-auto"></hr>
 
                     {/* Benefits */}
                     <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold text-center text-gray-800 mb-6">
@@ -406,7 +529,7 @@ export default function ServicesComponent() {
                         </p>
                     </div>
 
-                                <hr className="my-10 border-black w-3/4 mx-auto"></hr>
+                    <hr className="my-10 border-black w-3/4 mx-auto"></hr>
 
 
                     {/* Features */}
@@ -445,65 +568,14 @@ export default function ServicesComponent() {
                 </div>
             </section>
 
-                        <hr className="my-10 border-gray-200 w-3/4 mx-auto"></hr>
+            <hr className="my-10 border-gray-200 w-3/4 mx-auto"></hr>
 
-
-            <section className="bg-violet-200 rounded-lg py-10 text-center mx-2">
-                <h1 className="text-xl md:text-5xl font-bold mb-5 text-center">- OUR SERVICES -</h1>
-                <p className="md:font-bold text-lg md:text-2xl text-center">We are committed to delivering exceptional quality and service to our customers.</p>
-
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mt-5 max-w-7xl mx-auto px-4 rounded-lg p-10">
-
-                    <div className="bg-white p-10 rounded-xl hover:shadow-xl shadow-blue-800 hover:-translate-y-5 transition duration-300 py-10">
-                        <div className="text-4xl mb-3">⚙️</div>
-                        <h2 className="text-2xl font-bold py-5">INSPECTION</h2>
-                        <Image src={inspection} alt="inspection" width={80} height={80} className="mx-auto mb-5"></Image>
-                        <p className="text-sm py-5 font-semibold">QUALITY INSPECTIONS</p>
-                        <p> <strong>PPI</strong> - Pre Production Inspection <br></br>
-                            <strong>DPI</strong> - During Production Inspection <br></br>
-                            <strong>PSI</strong> - Pre Shipment Inspection <br></br>
-                            <strong>CLI</strong> - Container Loading Supervision.</p>
-                    </div>
-                    <div className="bg-white p-10 rounded-xl hover:shadow-xl shadow-blue-800 hover:-translate-y-5 transition duration-300 py-10">
-                        <div className="text-4xl mb-3">🌍</div>
-                        <h2 className="text-2xl font-bold py-5">AUDIT</h2>
-                        <Image src={audit} alt="audit" width={80} height={80} className="mx-auto mb-5"></Image>
-                        <p className="text-sm py-5 font-semibold">AUDITS</p>
-                        <p> <strong>PPI</strong> - Pre Production Inspection <br></br>
-                            <strong>DPI</strong> - During Production Inspection <br></br>
-                            <strong>PSI</strong> - Pre Shipment Inspection <br></br>
-                            <strong>CLI</strong> - Container Loading Supervision.</p>
-                    </div>
-                    <div className="bg-white p-10 rounded-xl hover:shadow-xl shadow-blue-800 hover:-translate-y-5 transition duration-300 py-10">
-                        <div className="text-4xl mb-3">👥</div>
-                        <h2 className="text-2xl font-bold py-5">LAB TESTS</h2>
-                        <Image src={labTest} alt="inspection" width={80} height={80} className="mx-auto mb-5"></Image>
-                        <p className="text-sm py-5 font-semibold">Lab Tests</p>
-                        <p> <strong>PPI</strong> - Pre Production Inspection <br></br>
-                            <strong>DPI</strong> - During Production Inspection <br></br>
-                            <strong>PSI</strong> - Pre Shipment Inspection <br></br>
-                            <strong>CLI</strong> - Container Loading Supervision.</p>
-                    </div>
-                    <div className="bg-white p-10 rounded-xl hover:shadow-xl shadow-blue-800 hover:-translate-y-5 transition duration-300 py-10">
-                        <div className="text-4xl mb-3">👍</div>
-                        <h2 className="text-2xl font-bold py-5">Certification</h2>
-                        <Image src={certificate} alt="inspection" width={80} height={80} className="mx-auto mb-5"></Image>
-                        <p className="text-sm py-5 font-semibold">CERTIFICATION</p>
-                        <p> <strong>PPI</strong> - Pre Production Inspection <br></br>
-                            <strong>DPI</strong> - During Production Inspection <br></br>
-                            <strong>PSI</strong> - Pre Shipment Inspection <br></br>
-                            <strong>CLI</strong> - Container Loading Supervision.</p>
-                    </div>
-                </div>
-                <button className="mt-10 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-white hover:text-blue-600 transition-colors duration-300">
-                    View All Services
-                </button>
-            </section>
+                <ServicesComponent/>
 
             <hr className="my-10 border-gray-200 w-3/4 mx-auto"></hr>
 
 
-                <section className="bg-[#1d1d1f] min-h-screen px-8 py-16">
+            <section className="bg-[#1d1d1f] min-h-screen px-8 py-16">
 
                 <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16">
 
@@ -575,8 +647,8 @@ export default function ServicesComponent() {
                         {/* Image */}
 
                         <div className="slide-right">
-                        <Image src={poor_production} alt="poor production" width={500} height={300} className="rounded-[30px] w-full h-full object-cover"></Image>
-                    </div>
+                            <Image src={poor_production} alt="poor production" width={500} height={300} className="rounded-[30px] w-full h-full object-cover"></Image>
+                        </div>
 
                         {/* Quote */}
                         <p className="text-white italic text-lg md:text-4xl leading-relaxed mt-16">
