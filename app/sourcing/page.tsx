@@ -15,8 +15,8 @@ import salt_img_spa from "@/public/img/salt_himaliya_spa.png";
 import mango_img_1 from "@/public/img/mango_img_1.jpg";
 import mango_img_all from "@/public/img/mango_all_type.jpeg";
 import mango_img_granite from "@/public/img/mango_granite.jpeg";
-import mango_img_multani from "@/public/img/mango_multani_chonsa.jpeg";
-import mango_img_safaid from "@/public/img/mango_safaid_chonsa.jpeg";
+import mango_img_multani from "@/public/img/mango_multani_chonsa.png";
+import mango_img_safaid from "@/public/img/mango_safaid_chonsa.png";
 
 
 export default function sourcing() {
@@ -166,21 +166,21 @@ export default function sourcing() {
                     <p className="text-xl text-center py-5">Natural and sweatest Pakistani Mangos.</p>
                 </div>
                 <div className="grid grid-cols-2 md:grid-cols-4 items-center text-center gap-5 p-5 mx-auto md:mx-10">
-                    <div className="border-2 rounded-2xl">
-                        <Image src={mango_img_all} alt="mission" width={500} height={300} className="border-2 rounded-2xl hover:scale-130 translation duration-300" ></Image>
+                    <div className="rounded-2x">
+                        <Image src={mango_img_all} alt="mission" width={500} height={300} className="border-x-4 border-t-4 border-gray-800 hover:scale-130 translation duration-300" ></Image>
                         <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-white hover:bg-blue-600 rounded-2xl">Mangos from Pakistan</p>
                     </div>
-                    <div className="border-2 rounded-2xl">
-                        <Image src={mango_img_granite} alt="mission" width={500} height={300} className="border-2 rounded-2xl hover:scale-130 translation duration-300" ></Image>
+                    <div className="rounded-2xl">
+                        <Image src={mango_img_granite} alt="mission" width={500} height={300} className="border-x-4 border-t-4 border-gray-800 hover:scale-130 translation duration-300" ></Image>
                         <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-white hover:bg-blue-600 rounded-2xl">Mangos from Pakistan</p>
                     </div>
-                    <div className="border-2 rounded-2xl">
-                        <Image src={mango_img_multani} alt="mission" width={500} height={300} className="border-2 rounded-2xl hover:scale-130 translation duration-300" ></Image>
-                        <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-white hover:bg-blue-600 rounded-2xl">Mangos from Pakistan</p>
+                    <div className="rounded-2xl">
+                        <Image src={mango_img_multani} alt="mission" width={500} height={300} className="hover:scale-130 translation duration-300" ></Image>
+                        <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-white hover:bg-blue-600 rounded-2xl">Multani Chonsaa</p>
                     </div>
-                    <div className="border-2 rounded-2xl">
-                        <Image src={mango_img_safaid} alt="mission" width={500} height={300} className="border-2 rounded-2xl hover:scale-130 translation duration-300" ></Image>
-                        <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-white hover:bg-blue-600 rounded-2xl">Mangos from Pakistan</p>
+                    <div className="rounded-2xl">
+                        <Image src={mango_img_safaid} alt="mission" width={500} height={300} className="hover:scale-130 translation duration-300" ></Image>
+                        <p className="py-2 my-5 hover:scale-130 transition-all duration-300 hover:text-white hover:bg-blue-600 rounded-2xl">Safaid Chonsaa</p>
                     </div>
                 </div>
             </div>

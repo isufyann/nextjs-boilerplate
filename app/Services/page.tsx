@@ -45,8 +45,8 @@ export default function ServicesComponent() {
             <hr className="my-10 border-black w-3/4 mx-auto" />
 
             {/* Brands */}
-            
-            <InspectionCustomersComponent/>
+
+            <InspectionCustomersComponent />
 
             <hr className="my-10 border-black w-3/4 mx-auto" />
 
@@ -65,6 +65,10 @@ export default function ServicesComponent() {
                     <div>
                         <h1 className="text-xl font-bold mt-5 mb-3">Dedicated Staff</h1>
                         <p className="ml-5 text-gray-800">Each one invests the wealth of his soul as an offense that causes hatred and grief, in the Portetator.</p>
+                    </div>
+                    <div>
+                        <h1 className="text-xl font-bold mt-5 mb-3">Compliance Audits & Inspections Made Easy</h1>
+                        <p className="ml-5 text-gray-800">For many organisations, compliance audits & inspections are perceived as a painful and thankless task.</p>
                     </div>
                 </div>
 
@@ -287,7 +291,7 @@ export default function ServicesComponent() {
                         <li><strong>Container Loading:</strong> We verify that your products are loaded securely and correctly in the container, following your specifications and industry best practices.</li>
                         <li><strong>Documentation:</strong> Our inspectors check that all necessary documentation, such as packing lists and bills of lading, is accurate and complete.</li>
                         <li><strong>Compliance:</strong> We ensure that your shipment complies with all relevant regulations and standards, including those related to safety, security, and environmental protection.</li>
-                        </ul>
+                    </ul>
                     <button className="mt-10 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-white hover:text-blue-600 transition-colors duration-300">
                         What is CLI?
                     </button>
@@ -298,156 +302,156 @@ export default function ServicesComponent() {
                     <p>A container loading check ensures that your products are loaded securely and correctly in the container, following your specifications and industry best practices. Our inspectors verify that your products meet all required quality standards, are properly packaged and labeled, and that all necessary documentation is accurate and complete. This service helps you prevent damage, ensure compliance with your requirements, and protect against delays, tampering, theft, or unauthorized access during transit.</p>
                 </div> */}
             <hr className="my-10 border-black max-w-3/4 mx-auto "></hr>
-            
-    <section className="bg-gray-50 py-12 px-4 sm:px-6 lg:px-12">
 
-      <div className="max-w-7xl mx-auto">
+            <section className="bg-gray-50 py-12 px-4 sm:px-6 lg:px-12">
 
-        {/* Title */}
-        <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold text-center text-gray-800 mb-6">
-          What Happens in a Product Inspection?
-        </h1>
+                <div className="max-w-7xl mx-auto">
 
-        <p className="text-center text-gray-600 max-w-3xl mx-auto mb-10 text-sm sm:text-base">
-          During an inspection, our RIS inspector evaluates products at specific
-          production stages using a tailored checklist based on your requirements.
-        </p>
+                    {/* Title */}
+                    <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold text-center text-gray-800 mb-6">
+                        What Happens in a Product Inspection?
+                    </h1>
 
-        {/* Inspection Checklist */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-12">
+                    <p className="text-center text-gray-600 max-w-3xl mx-auto mb-10 text-sm sm:text-base">
+                        During an inspection, our RIS inspector evaluates products at specific
+                        production stages using a tailored checklist based on your requirements.
+                    </p>
 
-          <div className="bg-white p-5 rounded-xl shadow hover:shadow-lg transition">
-            <h3 className="font-semibold text-lg">Specifications</h3>
-          </div>
+                    {/* Inspection Checklist */}
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-12">
 
-          <div className="bg-white p-5 rounded-xl shadow hover:shadow-lg transition">
-            <h3 className="font-semibold text-lg">Dimensions</h3>
-          </div>
+                        <div className="bg-white p-5 rounded-xl shadow hover:shadow-lg transition">
+                            <h3 className="font-semibold text-lg">Specifications</h3>
+                        </div>
 
-          <div className="bg-white p-5 rounded-xl shadow hover:shadow-lg transition">
-            <h3 className="font-semibold text-lg">Function</h3>
-          </div>
+                        <div className="bg-white p-5 rounded-xl shadow hover:shadow-lg transition">
+                            <h3 className="font-semibold text-lg">Dimensions</h3>
+                        </div>
 
-          <div className="bg-white p-5 rounded-xl shadow hover:shadow-lg transition">
-            <h3 className="font-semibold text-lg">Appearance</h3>
-          </div>
+                        <div className="bg-white p-5 rounded-xl shadow hover:shadow-lg transition">
+                            <h3 className="font-semibold text-lg">Function</h3>
+                        </div>
 
-          <div className="bg-white p-5 rounded-xl shadow hover:shadow-lg transition">
-            <h3 className="font-semibold text-lg">Performance</h3>
-          </div>
+                        <div className="bg-white p-5 rounded-xl shadow hover:shadow-lg transition">
+                            <h3 className="font-semibold text-lg">Appearance</h3>
+                        </div>
 
-          <div className="bg-white p-5 rounded-xl shadow hover:shadow-lg transition">
-            <h3 className="font-semibold text-lg">Workmanship</h3>
-          </div>
+                        <div className="bg-white p-5 rounded-xl shadow hover:shadow-lg transition">
+                            <h3 className="font-semibold text-lg">Performance</h3>
+                        </div>
 
-        </div>
+                        <div className="bg-white p-5 rounded-xl shadow hover:shadow-lg transition">
+                            <h3 className="font-semibold text-lg">Workmanship</h3>
+                        </div>
 
-        {/* Sampling Section */}
-        <div className="bg-white rounded-2xl shadow p-6 sm:p-10 mb-10">
-          <h2 className="text-xl sm:text-2xl font-bold mb-3">
-            Sampling Procedures
-          </h2>
+                    </div>
 
-          <p className="text-gray-600 text-sm sm:text-base leading-relaxed">
-            We use ANSI / ASQ Z1.4 (ISO 2859-1) statistical sampling to ensure unbiased inspection.
-            This helps determine acceptable quality limits (AQL) and ensures fair evaluation of products.
-          </p>
-        </div>
+                    {/* Sampling Section */}
+                    <div className="bg-white rounded-2xl shadow p-6 sm:p-10 mb-10">
+                        <h2 className="text-xl sm:text-2xl font-bold mb-3">
+                            Sampling Procedures
+                        </h2>
 
-        {/* Benefits */}
-        <h2 className="text-2xl sm:text-3xl font-bold text-center mb-6">
-          Benefits of Product Inspection Services
-        </h2>
+                        <p className="text-gray-600 text-sm sm:text-base leading-relaxed">
+                            We use ANSI / ASQ Z1.4 (ISO 2859-1) statistical sampling to ensure unbiased inspection.
+                            This helps determine acceptable quality limits (AQL) and ensures fair evaluation of products.
+                        </p>
+                    </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+                    {/* Benefits */}
+                    <h2 className="text-2xl sm:text-3xl font-bold text-center mb-6">
+                        Benefits of Product Inspection Services
+                    </h2>
 
-          <div className="bg-blue-50 p-5 rounded-xl shadow-sm">
-            <p>✔ Ensures product quality at every stage</p>
-          </div>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
 
-          <div className="bg-blue-50 p-5 rounded-xl shadow-sm">
-            <p>✔ Verifies supplier compliance</p>
-          </div>
+                        <div className="bg-blue-50 p-5 rounded-xl shadow-sm">
+                            <p>✔ Ensures product quality at every stage</p>
+                        </div>
 
-          <div className="bg-blue-50 p-5 rounded-xl shadow-sm">
-            <p>✔ Improves production efficiency</p>
-          </div>
+                        <div className="bg-blue-50 p-5 rounded-xl shadow-sm">
+                            <p>✔ Verifies supplier compliance</p>
+                        </div>
 
-          <div className="bg-blue-50 p-5 rounded-xl shadow-sm">
-            <p>✔ Avoids recalls and damage</p>
-          </div>
+                        <div className="bg-blue-50 p-5 rounded-xl shadow-sm">
+                            <p>✔ Improves production efficiency</p>
+                        </div>
 
-          <div className="bg-blue-50 p-5 rounded-xl shadow-sm">
-            <p>✔ Prevents shipment delays</p>
-          </div>
+                        <div className="bg-blue-50 p-5 rounded-xl shadow-sm">
+                            <p>✔ Avoids recalls and damage</p>
+                        </div>
 
-          <div className="bg-blue-50 p-5 rounded-xl shadow-sm">
-            <p>✔ Optimizes QC budget</p>
-          </div>
+                        <div className="bg-blue-50 p-5 rounded-xl shadow-sm">
+                            <p>✔ Prevents shipment delays</p>
+                        </div>
 
-        </div>
+                        <div className="bg-blue-50 p-5 rounded-xl shadow-sm">
+                            <p>✔ Optimizes QC budget</p>
+                        </div>
 
-        {/* Reporting */}
-        <div className="bg-white rounded-2xl shadow p-6 sm:p-10 mb-10">
-          <h2 className="text-xl sm:text-2xl font-bold mb-3">
-            Inspection Results
-          </h2>
+                    </div>
 
-          <p className="text-gray-600 text-sm sm:text-base leading-relaxed">
-            You receive a same-day detailed inspection report with images, defect analysis,
-            and pass/fail results via your online account dashboard.
-          </p>
-        </div>
+                    {/* Reporting */}
+                    <div className="bg-white rounded-2xl shadow p-6 sm:p-10 mb-10">
+                        <h2 className="text-xl sm:text-2xl font-bold mb-3">
+                            Inspection Results
+                        </h2>
 
-        {/* Online Platform */}
-        <div className="bg-linear-to-r from-blue-600 to-blue-800 text-white rounded-2xl p-6 sm:p-10 mb-10">
-          <h2 className="text-xl sm:text-2xl font-bold mb-3">
-            Take Your Quality Management Online
-          </h2>
+                        <p className="text-gray-600 text-sm sm:text-base leading-relaxed">
+                            You receive a same-day detailed inspection report with images, defect analysis,
+                            and pass/fail results via your online account dashboard.
+                        </p>
+                    </div>
 
-          <p className="text-sm sm:text-base leading-relaxed">
-            Book inspections, track reports, manage payments, and analyze quality trends
-            using our smart dashboard system.
-          </p>
-        </div>
+                    {/* Online Platform */}
+                    <div className="bg-linear-to-r from-blue-600 to-blue-800 text-white rounded-2xl p-6 sm:p-10 mb-10">
+                        <h2 className="text-xl sm:text-2xl font-bold mb-3">
+                            Take Your Quality Management Online
+                        </h2>
 
-        {/* Features */}
-        <h2 className="text-2xl sm:text-3xl font-bold text-center mb-6">
-          RIS Benefits
-        </h2>
+                        <p className="text-sm sm:text-base leading-relaxed">
+                            Book inspections, track reports, manage payments, and analyze quality trends
+                            using our smart dashboard system.
+                        </p>
+                    </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    {/* Features */}
+                    <h2 className="text-2xl sm:text-3xl font-bold text-center mb-6">
+                        RIS Benefits
+                    </h2>
 
-          <div className="bg-white p-5 rounded-xl shadow">
-            ✔ Independent quality control experts
-          </div>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
-          <div className="bg-white p-5 rounded-xl shadow">
-            ✔ Coverage in 100+ countries
-          </div>
+                        <div className="bg-white p-5 rounded-xl shadow">
+                            ✔ Independent quality control experts
+                        </div>
 
-          <div className="bg-white p-5 rounded-xl shadow">
-            ✔ 48-hour inspector availability
-          </div>
+                        <div className="bg-white p-5 rounded-xl shadow">
+                            ✔ Coverage in 100+ countries
+                        </div>
 
-          <div className="bg-white p-5 rounded-xl shadow">
-            ✔ Same-day reports
-          </div>
+                        <div className="bg-white p-5 rounded-xl shadow">
+                            ✔ 48-hour inspector availability
+                        </div>
 
-          <div className="bg-white p-5 rounded-xl shadow">
-            ✔ Online booking system
-          </div>
+                        <div className="bg-white p-5 rounded-xl shadow">
+                            ✔ Same-day reports
+                        </div>
 
-          <div className="bg-white p-5 rounded-xl shadow">
-            ✔ #1 customer satisfaction rating
-          </div>
+                        <div className="bg-white p-5 rounded-xl shadow">
+                            ✔ Online booking system
+                        </div>
 
-        </div>
+                        <div className="bg-white p-5 rounded-xl shadow">
+                            ✔ #1 customer satisfaction rating
+                        </div>
 
-      </div>
-    </section>
+                    </div>
 
-    <section className="bg-violet-200 rounded-lg py-10 text-center mx-2">
+                </div>
+            </section>
+
+            <section className="bg-violet-200 rounded-lg py-10 text-center mx-2">
                 <h1 className="text-xl md:text-5xl font-bold mb-5 text-center">- OUR SERVICES -</h1>
                 <p className="md:font-bold text-lg md:text-2xl text-center">We are committed to delivering exceptional quality and service to our customers.</p>
 
@@ -498,8 +502,8 @@ export default function ServicesComponent() {
                     View All Services
                 </button>
             </section>
-            
-                <hr className="my-10 border-black w-3/4 mx-auto"></hr>
+
+            <hr className="my-10 border-black w-3/4 mx-auto"></hr>
 
 
 
