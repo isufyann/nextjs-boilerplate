@@ -6,6 +6,7 @@ import audit from "@/public/img/icon_card_audit.png";
 import labTest from "@/public/img/icon_card_lab-technician.png";
 import certificate from "@/public/img/icon_card_certificate.png";
 import YourBusiness from "../components/yourBusiness";
+import WhyWorkWithUs from "../components/whyWorkWithUs";
 
 
 
@@ -229,6 +230,7 @@ export default function HomeComponent() {
       </section>
       <hr className="my-10 border-black max-w-3/4 mx-auto "></hr>
       <YourBusiness />
+      <WhyWorkWithUs/>
     </main>
   );
 }

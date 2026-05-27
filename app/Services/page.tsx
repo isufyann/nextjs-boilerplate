@@ -5,6 +5,7 @@ import audit from "@/public/img/icon_card_audit.png";
 import labTest from "@/public/img/icon_card_lab-technician.png";
 import certificate from "@/public/img/icon_card_certificate.png";
 import InspectionCustomersComponent from "../components/InspectionCustComponent";
+import poor_production from "@/public/img/poor-production.jpg"; 
 
 
 export default function ServicesComponent() {
@@ -291,7 +292,7 @@ export default function ServicesComponent() {
                 </div> */}
             <hr className="my-10 border-black max-w-3/4 mx-auto "></hr>
 
-            <section className="bg-gray-50 py-12 px-4 sm:px-6 lg:px-12">
+            <section className="bg-blue-50 py-12 px-4 sm:px-6 lg:px-12">
 
                 <div className="max-w-7xl mx-auto">
 
@@ -346,10 +347,12 @@ export default function ServicesComponent() {
                         </p>
                     </div>
 
+            <hr className="my-10 border-black w-3/4 mx-auto"></hr>
+
                     {/* Benefits */}
-                    <h2 className="text-2xl sm:text-3xl font-bold text-center mb-6">
+                    <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold text-center text-gray-800 mb-6">
                         Benefits of Product Inspection Services
-                    </h2>
+                    </h1>
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
 
@@ -403,10 +406,13 @@ export default function ServicesComponent() {
                         </p>
                     </div>
 
+                                <hr className="my-10 border-black w-3/4 mx-auto"></hr>
+
+
                     {/* Features */}
-                    <h2 className="text-2xl sm:text-3xl font-bold text-center mb-6">
+                    <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold text-center text-gray-800 mb-6">
                         RIS Benefits
-                    </h2>
+                    </h1>
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
@@ -438,6 +444,9 @@ export default function ServicesComponent() {
 
                 </div>
             </section>
+
+                        <hr className="my-10 border-gray-200 w-3/4 mx-auto"></hr>
+
 
             <section className="bg-violet-200 rounded-lg py-10 text-center mx-2">
                 <h1 className="text-xl md:text-5xl font-bold mb-5 text-center">- OUR SERVICES -</h1>
@@ -491,7 +500,94 @@ export default function ServicesComponent() {
                 </button>
             </section>
 
-            <hr className="my-10 border-black w-3/4 mx-auto"></hr>
+            <hr className="my-10 border-gray-200 w-3/4 mx-auto"></hr>
+
+
+                <section className="bg-[#1d1d1f] min-h-screen px-8 py-16">
+
+                <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16">
+
+                    {/* LEFT SIDE */}
+                    <div>
+
+                        {/* Heading */}
+                        <h1 className="text-white text-3xl md:text-6xl font-bold leading-tight">
+                            Why You Can’t Skip
+                            <br />
+                            Quality Control –{" "}
+                            <span className="text-[#f55a43]">
+                                The Cost of a Bad Production
+                            </span>
+                        </h1>
+
+                        {/* List Items */}
+                        <div className="mt-16 space-y-10">
+
+                            {[
+                                {
+                                    title: "Defective products",
+                                    desc: "Angry customers & negative reviews",
+                                    icon: "📦",
+                                },
+                                {
+                                    title: "Shipping faulty goods",
+                                    desc: "Expensive recalls & legal issues",
+                                    icon: "🚚",
+                                },
+                                {
+                                    title: "Factories cutting corners",
+                                    desc: "Loss of product integrity",
+                                    icon: "⚙️",
+                                },
+                            ].map((item, index) => (
+                                <div key={index} className="flex gap-6">
+
+                                    {/* Icon Circle */}
+                                    <div className="w-10 md:w-20 h-10 md:h-20 rounded-full bg-[#f55a43] flex items-center justify-center text-xl md:text-4xl shrink-0">
+                                        {item.icon}
+                                    </div>
+
+                                    {/* Text */}
+                                    <div>
+                                        <h3 className="text-white text-lg md:text-2xl font-medium">
+                                            {item.title}
+                                        </h3>
+
+                                        <p className="text-gray-300 text-sm md:text-lg mt-2">
+                                            {item.desc}
+                                        </p>
+                                    </div>
+
+                                </div>
+                            ))}
+                        </div>
+
+                        {/* Button */}
+                        <button className="mt-10 bg-pink-600 hover:bg-pink-700 transition-all duration-300 text-white text-md md:text-xl px-10 py-5 rounded-md">
+                            Get a Quality Inspection Quote
+                        </button>
+
+                    </div>
+
+                    {/* RIGHT SIDE */}
+                    <div>
+
+                        {/* Image */}
+
+                        <div className="slide-right">
+                        <Image src={poor_production} alt="poor production" width={500} height={300} className="rounded-[30px] w-full h-full object-cover"></Image>
+                    </div>
+
+                        {/* Quote */}
+                        <p className="text-white italic text-lg md:text-4xl leading-relaxed mt-16">
+                            “Over 5,000 products sourced – We’ve seen it all.
+                            Let’s make sure your production is perfect.”
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+
         </main>
     );
 }

@@ -1,7 +1,11 @@
+import product_development from "@/public/img/product_development.webp"
+import Image from "next/image";
+
 import { FaPhone } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
 import { FaLocationDot } from "react-icons/fa6";
 import { LiaFaxSolid } from "react-icons/lia";
+import WhyWorkWithUs from "../components/whyWorkWithUs";
 
 
 
@@ -195,6 +199,19 @@ export default function AboutComponent() {
                     </div>
                 </div>
             </section>
+            <WhyWorkWithUs />
+
+            <div className="text-center max-w-6xl mx-auto">
+                <h1 className="text-3xl md:text-7xl font-bold leading-tight mt-5">
+                    Product Development {""}
+                    <span className="text-[#f05a43]">
+                        QCS
+                    </span>
+                </h1>
+            </div>
+            <div className="flex justify-center items-center my-10 slide-right">
+                <Image src={product_development} alt="img" width={500} height={300} className="rounded-[30px] w-300 h-full object-cover"></Image>
+            </div>
         </>
     );
 }

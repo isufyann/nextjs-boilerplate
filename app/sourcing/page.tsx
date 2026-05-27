@@ -15,6 +15,7 @@ import mango_img_granite from "@/public/img/mango_granite.jpeg";
 import mango_img_multani from "@/public/img/mango_multani_chonsa.png";
 import mango_img_safaid from "@/public/img/mango_safaid_chonsa.png";
 import YourBusiness from "../components/yourBusiness";
+import WhyWorkWithUs from "../components/whyWorkWithUs";
 
 
 export default function sourcing() {
@@ -182,6 +183,7 @@ export default function sourcing() {
                 </div>
             </div>
             <YourBusiness />
+            <WhyWorkWithUs/>
         </main >
     );
 }
