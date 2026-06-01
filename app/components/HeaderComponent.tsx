@@ -55,9 +55,9 @@ export function HeaderComponent() {
             className="md:hidden flex flex-col gap-1"
             onClick={() => setMenuOpen(!menuOpen)}
           >
-            <span className="w-6 h-[2px] bg-white"></span>
-            <span className="w-6 h-[2px] bg-white"></span>
-            <span className="w-6 h-[2px] bg-white"></span>
+            <span className="w-6 h-[2 px] bg-white"></span>
+            <span className="w-6 h-[2 px] bg-white"></span>
+            <span className="w-6 h-[2 px] bg-white"></span>
           </button>
         </div>
 
