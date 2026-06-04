@@ -46,10 +46,10 @@ export default function sourcing() {
 
 
             <section className="flex flex-col md:flex-row bg-black/70 tracking-widest px-5 py-10 md:px-30 md:py-10 rounded-2xl">
-                <div className="slide-right flex-1 text-5xl md:text-7xl font-bold text-white mx-10 md:mx-20 my-5 md:my-10 slide-up">
+                <div className="slide-down flex-1 text-5xl md:text-7xl font-bold text-white mx-10 md:mx-20 my-5 md:my-10 slide-up">
                     Servies
                 </div>
-                <div className="slide-left flex-2 text-lg md:text-2xl text-white leading-10 mx-10 md:mx-20 my-5 md:my-10">
+                <div className="slide-up flex-2 text-lg md:text-2xl text-white leading-10 mx-10 md:mx-20 my-5 md:my-10">
                     We source quality products from the best global suppliers for your business, saving you money and time while also reducing risks.
                 </div>
             </section>

@@ -17,7 +17,7 @@ export function HeaderComponent() {
         <div className="flex justify-between items-center px-7 py-2 md:p-5 max-w-9xl mx-auto">
 
           {/* Logo */}
-          <h1 className="text-xl font-bold hover:shadow-[0_0_20px_white] hover:text-white px-5 py-3 rounded-2xl duration-500 transition-all hover:scale-125 hover:translate-x-10">
+          <h1 className="text-md md:text-xl font-bold hover:shadow-[0_0_20px_white] hover:text-white px-5 py-3 rounded-2xl duration-500 transition-all hover:scale-125 hover:translate-x-10">
             Quality Compliance Solutions
           </h1>
 
@@ -32,9 +32,9 @@ export function HeaderComponent() {
                 Sourcing
               </Link>
 
-              <Link href="/Services" className="text-white text-xl px-5 py-3 rounded-lg transition-all duration-300 hover:shadow-[0_0_20px_white] hover:scale-80">
+              {/* <Link href="/ContactUs" className="text-white text-xl px-5 py-3 rounded-lg transition-all duration-300 hover:shadow-[0_0_20px_white] hover:scale-80">
                 Services
-              </Link>
+              </Link> */}
 
               <Link href="/aqlLevel" className="text-white text-xl px-5 py-3 rounded-lg transition-all duration-300 hover:shadow-[0_0_20px_white] hover:scale-80">
                 AQL Level
@@ -60,9 +60,9 @@ export function HeaderComponent() {
             className="md:hidden flex flex-col gap-1"
             onClick={() => setMenuOpen(!menuOpen)}
           >
-            <span className="w-6 h-[2 px] bg-white"></span>
-            <span className="w-6 h-[2 px] bg-white"></span>
-            <span className="w-6 h-[2 px] bg-white"></span>
+            <span className="w-6 h-0.5 bg-white"></span>
+            <span className="w-6 h-0.5 bg-white"></span>
+            <span className="w-6 h-0.5 bg-white"></span>
           </button>
         </div>
 
@@ -78,9 +78,9 @@ export function HeaderComponent() {
             Sourcing
           </Link>
 
-          <Link href="/Services" onClick={closeMenu} className="block text-white py-2">
+          {/* <Link href="/" onClick={closeMenu} className="block text-white py-2">
             Services
-          </Link>
+          </Link> */}
 
           <Link href="/aqlLevel" onClick={closeMenu} className="block text-white py-2">
             AQL Level

@@ -5,20 +5,20 @@ export default function YourBusiness() {
     return (
         <main>
             {/* //////////////////////////////////// */}
-            <section className="bg-[#1c1c1f] min-h-screen flex items-center justify-center px-8 py-16">
-                <div className="max-w-7xl w-full grid md:grid-cols-2 gap-12 items-center">
+            <section className="flex bg-gray-900 min-h-screen items-center justify-center px-8 py-8">
+                <div className="max-w-7xl w-full grid md:grid-cols-2 gap-10 items-center">
 
                     {/* Left Image */}
-                    <div className="slide-right">
-                        <Image src={hero_bg_sourcing} alt="img" width={500} height={300} className="rounded-[30px] w-full h-full object-cover"></Image>
+                    <div className="slide-up">
+                        <Image src={hero_bg_sourcing} alt="img" width={500} height={300} className="rounded-3xl w-full h-full"></Image>
                     </div>
 
                     {/* Right Content */}
-                    <div className="slide-left text-white">
+                    <div className="slide-up text-white">
 
                         <h1 className="text-5xl lg:text-7xl font-bold leading-tight">
                             What Means for
-                            <span className="block text-[#ff5a3d] mt-2">
+                            <span className="block text-red-500 mt-2">
                                 Your Business
                             </span>
                         </h1>
@@ -40,7 +40,7 @@ export default function YourBusiness() {
                                     key={index}
                                     className="flex items-start gap-4 text-xl"
                                 >
-                                    <span className="text-[#ff5a3d] text-3xl">✓</span>
+                                    <span className="text-red-500 text-3xl">✓</span>
                                     <p>{item}</p>
                                 </div>
                             ))}

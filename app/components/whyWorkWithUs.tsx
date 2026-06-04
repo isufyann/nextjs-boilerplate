@@ -3,7 +3,7 @@ export default function WhyWorkWithUs() {
 
     return (
         <main>
-            <section className="bg-[#f3f3f3] min-h-screen py-20 px-6">
+            <section className="bg-blue-50/10 min-h-screen py-20 px-6">
 
                 {/* Heading */}
                 <div className="text-center max-w-6xl mx-auto">

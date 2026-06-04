@@ -50,7 +50,7 @@ export default function HomeComponent() {
           </div>
         </div>
 
-        <div className="slide-left w-auto md:w-1/2 p-10">
+        <div className="slide-up w-auto md:w-1/2 p-10">
           <div className="block md:hidden">
             <Image src="/img/hero_bg.jpg" alt="mission" width={500} height={300} className="rounded-xl transition duration-500 hover:scale-130 hover:-translate-x-20 opacity-100 hover:opacity-0 hover:bg-[url('/img/hero_bg.jpg')]"></Image>
           </div>
