@@ -6,6 +6,11 @@ import { useState } from "react";
 export function HeaderComponent() {
   const [menuOpen, setMenuOpen] = useState(false);
 
+
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
+
   return (
     <main>
       <header className="bg-gray-900 text-white fixed top-0 left-0 w-full z-50 shadow-md">
@@ -61,37 +66,42 @@ export function HeaderComponent() {
           </button>
         </div>
 
-        {/* Mobile Menu */}
-        {menuOpen && (
-          <div className="md:hidden bg-gray-800 px-6 pb-5 space-y-2">
+{/* Mobile Menu */}
+      {menuOpen && (
+        <div className="md:hidden bg-gray-800 px-6 pb-5 space-y-2">
 
-            <Link href="/HomeComponent" className="block text-white text-lg py-2">
-              Home
-            </Link>
+          <Link href="/" onClick={closeMenu} className="block text-white py-2">
+            Home
+          </Link>
 
-            <Link href="/sourcing" className="block text-white text-lg py-2">
-              Sourcing
-            </Link>
+          <Link href="/sourcing" onClick={closeMenu} className="block text-white py-2">
+            Sourcing
+          </Link>
 
-            <Link href="/" className="block text-white text-lg py-2">
-              Services
-            </Link>
+          <Link href="/Services" onClick={closeMenu} className="block text-white py-2">
+            Services
+          </Link>
 
-            <Link href="/aqlLevel" className="block text-white text-lg py-2">
-              AQL Level
-            </Link>
+          <Link href="/aqlLevel" onClick={closeMenu} className="block text-white py-2">
+            AQL Level
+          </Link>
 
-            <Link href="/AboutUs" className="block text-white text-lg py-2">
-              About Us
-            </Link>
+          <Link href="/AboutUs" onClick={closeMenu} className="block text-white py-2">
+            About Us
+          </Link>
 
-            <Link href="/ContactUs" className="block text-white text-lg py-2">
-              Contact Us
-            </Link>
+          <Link href="/ContactUs" onClick={closeMenu} className="block text-white py-2">
+            Contact Us
+          </Link>
 
-            <Link href="/#" className="block bg-white text-black text-lg py-2 px-3 rounded-lg mt-3 text-center">
-              Get in Touch
-            </Link>
+          <Link
+            href="/#"
+            onClick={closeMenu}
+            className="block bg-white text-black py-2 px-3 rounded-lg text-center"
+          >
+            Get in Touch
+          </Link>
+
           </div>
         )}
       </header>
