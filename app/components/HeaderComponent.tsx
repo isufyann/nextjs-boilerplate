@@ -65,7 +65,7 @@ export function HeaderComponent() {
         {menuOpen && (
           <div className="md:hidden bg-gray-800 px-6 pb-5 space-y-2">
 
-            <Link href="/" className="block text-white text-lg py-2">
+            <Link href="/HomeComponent" className="block text-white text-lg py-2">
               Home
             </Link>
 
@@ -73,7 +73,7 @@ export function HeaderComponent() {
               Sourcing
             </Link>
 
-            <Link href="/Services" className="block text-white text-lg py-2">
+            <Link href="/" className="block text-white text-lg py-2">
               Services
             </Link>
 

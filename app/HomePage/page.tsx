@@ -1,6 +1,6 @@
 import Image from "next/image";
 import InspectionCustomersComponent from "../components/InspectionCustComponent";
-import ServicesComponent from "../Services/page";
+// import ServicesComponent from "../Services/page";
 import YourBusiness from "../components/yourBusiness";
 import WhyWorkWithUs from "../components/whyWorkWithUs";
 
@@ -120,25 +120,7 @@ export default function HomeComponent() {
           </svg>
         </div>
       </section>
-      {/* Stats */}
-      {/* <section className="py-10 bg-white text-center">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-6xl mx-auto">
-          {[
-            ["500+", "QUALITY INSPECTIONS"],
-            ["20+", "CITIES COVERED"],
-            ["400+", "HAPPY CLIENTS"],
-            ["12+", "INSPECTORS"],
-          ].map(([num, label]) => (
-            <div key={label}>
-              <h2 className="text-2xl font-bold">{num}</h2>
-              <p className="text-gray-500">{label}</p>
-            </div>
-          ))}
-        </div>
-      </section> */}
-
-
-
+    
       {/* Services */}
       <section className="py-12 text-center">
         <h1 className="text-2xl md:text-5xl font-bold mb-2">We Offer</h1>
@@ -172,7 +154,7 @@ export default function HomeComponent() {
         <hr className="my-10 border-black w-3/4 mx-auto" />
       </section>
 
-      <ServicesComponent/>
+      {/* <ServicesComponent/> */}
 
       <hr className="my-10 border-black max-w-3/4 mx-auto "></hr>
       <YourBusiness />

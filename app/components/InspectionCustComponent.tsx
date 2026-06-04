@@ -35,25 +35,3 @@ export default function InspectionCustomersComponent() {
         </main>
     );
 }
-
-
-{/* <div className="flex flex-wrap justify-center gap-6">
-          {[
-            "brand_ Levi.png",
-            "brand_H&M.png",
-            "brand_JCPenney-Logo.png",
-            "brand_Lee-Cooper.png",
-            "brand_TESCO.png",
-            "brand_H&M.png",
-            "brand_JCPenney-Logo.png",
-            "brand_Lee-Cooper.png",
-          ].map((src, i) => (
-            <Image
-              key={i}
-              src={`/img/${src}`}
-              alt="brand"
-              width={120}
-              height={60}
-            />
-          ))}
-        </div> */}
