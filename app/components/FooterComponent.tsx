@@ -50,7 +50,7 @@ export function FooterComponent() {
             href="tel:+92-302-6775888"
             className="flex items-center gap-2 text-cyan-400 hover:text-blue-400 transition"
           >
-            <FaWhatsapp /> +92-302-6775888
+            <FaWhatsapp /> +447492282531
           </a>
 
           <a
