@@ -32,9 +32,9 @@ export function HeaderComponent() {
                 Sourcing
               </Link>
 
-              {/* <Link href="/ContactUs" className="text-white text-xl px-5 py-3 rounded-lg transition-all duration-300 hover:shadow-[0_0_20px_white] hover:scale-80">
+              <Link href="/Services" className="text-white text-xl px-5 py-3 rounded-lg transition-all duration-300 hover:shadow-[0_0_20px_white] hover:scale-80">
                 Services
-              </Link> */}
+              </Link>
 
               <Link href="/aqlLevel" className="text-white text-xl px-5 py-3 rounded-lg transition-all duration-300 hover:shadow-[0_0_20px_white] hover:scale-80">
                 AQL Level
