@@ -3,8 +3,8 @@ import { IoMailOpenOutline } from "react-icons/io5";
 import { FaLocationDot } from "react-icons/fa6";
 
 export function FooterComponent() {
-  
-  const message="Hello! I need some help. I want to know more about you."
+
+  const message = "Hello and welcome to Quality Compliance Solutions. Thank you for contacting us.Please share a brief overview of your requirements, and one of our specialists will get back to you as soon as possible.qualitycompliancesolutions.uk"
   const whatsappUrlPK = `https://wa.me/${+923026775888}?text=${encodeURIComponent(message)}`;
   const whatsappUrlUK = `https://wa.me/${+447492282531}?text=${encodeURIComponent(message)}`;
   const whatsappUrlTurkey = `https://wa.me/${+923026775888}?text=${encodeURIComponent(message)}`;
@@ -94,7 +94,7 @@ export function FooterComponent() {
               </div>
 
               {/* UK */}
-              <div className="pl-15">
+              <div>
                 <h3 className="font-semibold mb-2">UK Office</h3>
 
                 <a
