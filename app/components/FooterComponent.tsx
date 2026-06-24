@@ -48,7 +48,7 @@ export function FooterComponent() {
       </div>
 
       {/* CTA Section */}
-      <section className="py-10 bg-blue-600 text-center text-white rounded-2xl mx-3 sm:mx-5 my-6 px-4">
+      <section className="py-5 md:py-10 bg-blue-600 text-center text-white rounded-2xl mx-3 sm:mx-5 my-6 px-4">
         <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold mb-4">
           Ready to Get Started?
         </h1>

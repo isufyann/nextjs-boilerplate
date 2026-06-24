@@ -16,14 +16,14 @@ export default function YourBusiness() {
                     {/* Right Content */}
                     <div className="slide-up text-white">
 
-                        <h1 className="text-5xl lg:text-7xl font-bold leading-tight">
+                        <h1 className="text-3xl lg:text-7xl font-bold leading-tight">
                             What Means for
                             <span className="block text-red-500 mt-2">
                                 Your Business
                             </span>
                         </h1>
 
-                        <p className="text-2xl text-gray-200 mt-5 mb-10">
+                        <p className="text-xl text-gray-200 mt-5 mb-10">
                             Working with QCS typically results in:
                         </p>
 
@@ -38,15 +38,15 @@ export default function YourBusiness() {
                             ].map((item, index) => (
                                 <div
                                     key={index}
-                                    className="flex items-start gap-4 text-xl"
+                                    className="flex items-start gap-2 text-md"
                                 >
-                                    <span className="text-red-500 text-3xl">✓</span>
+                                    <span className="text-red-500 text-2xl">✓</span>
                                     <p>{item}</p>
                                 </div>
                             ))}
                         </div>
                         <a href="ContactUs">
-                            <button className="mt-8 bg-pink-600 hover:bg-pink-700 transition px-10 py-5 rounded-lg text-lg font-medium">
+                            <button className="mt-8 bg-pink-600 hover:bg-pink-700 transition px-10 py-5 rounded-lg text-md font-medium">
                                 Tell Us What You Need
                             </button></a>
                     </div>
