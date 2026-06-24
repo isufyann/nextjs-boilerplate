@@ -151,12 +151,11 @@ export default function HomeComponent() {
             <p>Quality services according to international regulations and standards.</p>
           </div>
         </div>
-        <hr className="my-10 border-black w-3/4 mx-auto" />
       </section>
 
       {/* <ServicesComponent/> */}
 
-      <hr className="my-10 border-black max-w-3/4 mx-auto "></hr>
+      <hr className="my-5 border-black max-w-3/4 mx-auto "></hr>
       <YourBusiness />
       <WhyWorkWithUs/>
     </main>
