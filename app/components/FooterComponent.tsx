@@ -1,12 +1,24 @@
-import { FaWhatsapp } from "react-icons/fa";
+'use client'
+import React from "react";
 import { FloatingWhatsApp } from '@digicroz/react-floating-whatsapp';
 
 import { IoMailOpenOutline } from "react-icons/io5";
 import { FaLocationDot } from "react-icons/fa6";
+import { CiFacebook } from "react-icons/ci";
+import { FaFacebook } from "react-icons/fa";
+import { FaGoogle } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaSquareWhatsapp } from "react-icons/fa6";
+import { FaWhatsapp } from "react-icons/fa";
+import { IoLogoWhatsapp } from "react-icons/io";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaSquareInstagram } from "react-icons/fa6";
+
+
 
 export function FooterComponent() {
 
-  const message = "Hello and welcome to Quality Compliance Solutions. Thank you for contacting us.Please share a brief overview of your requirements, and one of our specialists will get back to you as soon as possible.qualitycompliancesolutions.uk"
+  const message = "Hello and welcome to Quality Compliance Solutions. Thank you for contacting us.Please share a brief overview of your requirements, and one of our specialists will get back to you as soon as possible. qualitycompliancesolutions.uk"
   const whatsappUrlPK = `https://wa.me/${+923026775888}?text=${encodeURIComponent(message)}`;
   const whatsappUrlUK = `https://wa.me/${+447492282531}?text=${encodeURIComponent(message)}`;
   const whatsappUrlTurkey = `https://wa.me/${+923026775888}?text=${encodeURIComponent(message)}`;
@@ -14,6 +26,27 @@ export function FooterComponent() {
 
   return (
     <>
+
+      <div className="App">
+        {/* Your application content */}
+
+        <a href={whatsappUrlPK} target="blank">
+          <FloatingWhatsApp
+            phoneNumber="03026775888" // Required: International format without '+' or '00'
+            accountName="Customer Support" // Required
+            statusMessage="Typically replies within 1 hour"
+            chatMessage="Hello there! How can we help you? Feel free to contact Us."
+            allowEsc={true}
+            allowClickAway={true}
+            notification={true}
+            notificationSound={true}
+            buttonStyle={{ backgroundColor: '#25D366' }}
+
+
+          />
+        </a>
+      </div>
+
       {/* CTA Section */}
       <section className="py-10 bg-blue-600 text-center text-white rounded-2xl mx-3 sm:mx-5 my-6 px-4">
         <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold mb-4">
@@ -158,21 +191,28 @@ export function FooterComponent() {
               Follow Us
             </h2>
 
-            <div className="flex flex-col gap-3">
-              <a href="#" className="text-cyan-400 hover:text-blue-400">
-                Google
+            <div className="flex flex-row gap-3 justify-center items-center">
+              <a href={whatsappUrlPK} className="text-white hover:text-blue-400">
+                <IoLogoWhatsapp size={20} />
+                {/* <FaWhatsapp />
+              <FaSquareWhatsapp />
+              <FaWhatsapp /> */}
+
               </a>
-              <a href="#" className="text-cyan-400 hover:text-blue-400">
-                Facebook
+              <a href="#" className="text-white hover:text-blue-400">
+                <FaFacebook size={20} />
               </a>
-              <a href="#" className="text-cyan-400 hover:text-blue-400">
-                LinkedIn
+              <a href="#" className="text-white hover:text-blue-400">
+                <FaGoogle size={20} />
               </a>
-              <a href="#" className="text-cyan-400 hover:text-blue-400">
-                Twitter
+              <a href="#" className="text-white hover:text-blue-400">
+                <FaLinkedin size={20} />
               </a>
-              <a href="#" className="text-cyan-400 hover:text-blue-400">
-                Instagram
+              <a href="#" className="text-white hover:text-blue-400">
+                <FaSquareXTwitter size={20} />
+              </a>
+              <a href="#" className="text-white hover:text-blue-400">
+                <FaSquareInstagram size={20} />
               </a>
             </div>
           </div>
