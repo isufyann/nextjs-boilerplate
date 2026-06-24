@@ -1,4 +1,6 @@
 import { FaWhatsapp } from "react-icons/fa";
+import { FloatingWhatsApp } from '@digicroz/react-floating-whatsapp';
+
 import { IoMailOpenOutline } from "react-icons/io5";
 import { FaLocationDot } from "react-icons/fa6";
 

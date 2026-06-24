@@ -1,6 +1,3 @@
-import Image from "next/image";
-import { HeaderComponent } from "@/app/components/HeaderComponent";
-import { FooterComponent } from "@/app/components/FooterComponent";
 import HomePage from "./HomePage/page";
 
 // import PricingPage from "./components/pricingComponent";
